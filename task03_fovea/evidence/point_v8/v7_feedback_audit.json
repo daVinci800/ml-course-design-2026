@@ -1,0 +1,10 @@
+{
+  "baseline_public_rmse": 14.39947,
+  "v7_public_rmse": 15.94521,
+  "public_worsening_percent": 10.734700652176766,
+  "note": "User-provided aggregate feedback only. Test ground truth is not available and is not reconstructed.",
+  "v7_oof_recipe_crossfit_rmse": 16.898015174459786,
+  "v7_train_coordinate_shift_rmse": 7.377565791102374,
+  "v7_test_coordinate_shift_rmse": 3.4442825508340653,
+  "diagnostic": "Large candidate search on 80 training images gave unstable recipe choice. Aggregate leaderboard scores cannot identify which test images caused deterioration."
+}

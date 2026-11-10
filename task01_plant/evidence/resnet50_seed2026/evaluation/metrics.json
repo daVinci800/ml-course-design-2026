@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "class_order": [
+    "Black-grass",
+    "Common wheat",
+    "Loose Silky-bent",
+    "Scentless Mayweed",
+    "Sugar beet"
+  ],
+  "total": 500,
+  "correct": 323,
+  "pooled_accuracy": 0.646,
+  "target": {
+    "name": "95% accuracy target",
+    "accuracy": 0.95,
+    "met": false,
+    "margin": -0.30399999999999994
+  },
+  "target_accuracy_95": 0.95,
+  "meets_target_95": false,
+  "accuracy_ci_95": {
+    "method": "Wilson score interval",
+    "confidence_level": 0.95,
+    "lower": 0.6031159977821284,
+    "upper": 0.6866576948030984
+  },
+  "macro": {
+    "precision": 0.6649948890070662,
+    "recall": 0.646,
+    "f1": 0.6390545318084964
+  },
+  "per_class": [
+    {
+      "class_index": 0,
+      "class_name": "Black-grass",
+      "support": 100,
+      "predicted_count": 134,
+      "true_positive": 69,
+      "false_positive": 65,
+      "false_negative": 31,
+      "precision": 0.5149253731343284,
+      "recall": 0.69,
+      "f1": 0.5897435897435898
+    },
+    {
+      "class_index": 1,
+      "class_name": "Common wheat",
+      "support": 100,
+      "predicted_count": 60,
+      "true_positive": 41,
+      "false_positive": 19,
+      "false_negative": 59,
+      "precision": 0.6833333333333333,
+      "recall": 0.41,
+      "f1": 0.5125000000000001
+    },
+    {
+      "class_index": 2,
+      "class_name": "Loose Silky-bent",
+      "support": 100,
+      "predicted_count": 68,
+      "true_positive": 51,
+      "false_positive": 17,
+      "false_negative": 49,
+      "precision": 0.75,
+      "recall": 0.51,
+      "f1": 0.6071428571428571
+    },
+    {
+      "class_index": 3,
+      "class_name": "Scentless Mayweed",
+      "support": 100,
+      "predicted_count": 129,
+      "true_positive": 77,
+      "false_positive": 52,
+      "false_negative": 23,
+      "precision": 0.5968992248062015,
+      "recall": 0.77,
+      "f1": 0.6724890829694323
+    },
+    {
+      "class_index": 4,
+      "class_name": "Sugar beet",
+      "support": 100,
+      "predicted_count": 109,
+      "true_positive": 85,
+      "false_positive": 24,
+      "false_negative": 15,
+      "precision": 0.7798165137614679,
+      "recall": 0.85,
+      "f1": 0.8133971291866028
+    }
+  ],
+  "per_fold": [
+    {
+      "fold": 0,
+      "total": 100,
+      "correct": 66,
+      "accuracy": 0.66
+    },
+    {
+      "fold": 1,
+      "total": 100,
+      "correct": 67,
+      "accuracy": 0.67
+    },
+    {
+      "fold": 2,
+      "total": 100,
+      "correct": 63,
+      "accuracy": 0.63
+    },
+    {
+      "fold": 3,
+      "total": 100,
+      "correct": 70,
+      "accuracy": 0.7
+    },
+    {
+      "fold": 4,
+      "total": 100,
+      "correct": 57,
+      "accuracy": 0.57
+    }
+  ],
+  "fold_accuracy_variance": 0.001944000000000001,
+  "fold_accuracy_sample_variance": 0.002430000000000001,
+  "fold_variance_definition": "population variance across unweighted fold accuracies",
+  "group_leakage_checked": false
+}

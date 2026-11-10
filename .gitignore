@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.safetensors
+*.npy
+*.npz
+data/train/
+data/test/
+data/segmentation/
+cache_clahe/

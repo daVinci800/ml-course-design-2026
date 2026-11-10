@@ -1,0 +1,93 @@
+{
+  "config": {
+    "accumulation_steps": 2,
+    "augmentation": {
+      "affine_scale": [
+        0.9,
+        1.1
+      ],
+      "affine_translate": 0.05,
+      "color_jitter": [
+        0.15,
+        0.15,
+        0.15,
+        0.02
+      ],
+      "random_d4": true,
+      "resize": 288,
+      "square_pad_fill": [
+        124,
+        116,
+        104
+      ]
+    },
+    "batch_size": 16,
+    "ema": false,
+    "epochs": 30,
+    "gradient_clip_norm": 1.0,
+    "head_only_epochs": 2,
+    "image_size": 288,
+    "loss": {
+      "label_smoothing": 0.0,
+      "name": "cross_entropy"
+    },
+    "manifest_sha256": "f1fd9e212b7332974b009f155f43bd9c0ebb76251b5fa6aaf30b389bb54ae129",
+    "mode": "formal",
+    "model": "efficientnet_b3.ra2_in1k",
+    "no_decay_rule": "bias_or_ndim_le_1",
+    "num_classes": 5,
+    "num_folds": 5,
+    "num_workers": 0,
+    "oof_tta_rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "optimizer": "AdamW",
+    "precision": "bf16",
+    "pretrained": true,
+    "scheduler": {
+      "epoch_3": {
+        "backbone_linear": [
+          1e-05,
+          0.0001
+        ],
+        "head": 0.0003
+      },
+      "epochs_1_2": {
+        "backbone": 0.0,
+        "head": 0.001
+      },
+      "epochs_4_30": {
+        "backbone_cosine": [
+          0.0001,
+          1e-06
+        ],
+        "head_cosine": [
+          0.0003,
+          3e-06
+        ]
+      },
+      "unit": "successful_optimizer_update"
+    },
+    "schema": "round3_effnet_b3_v1",
+    "seed": 2026,
+    "selection": "fixed_final_epoch_raw",
+    "validation": "deterministic_full_square_pad_resize",
+    "weight_decay": 0.01,
+    "weight_sha256": "279d2a53898aa89dab43fd6bd7df9f706aea4cb9cf916223988bbcb8e5850469"
+  },
+  "config_hash": "e37482e6a516376d5c26ca9b8ffc49e26c7da42fb3a7eec2681215e18f25a4ac",
+  "manifest": {
+    "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\data\\folds_v2.csv",
+    "rows": 500,
+    "sha256": "f1fd9e212b7332974b009f155f43bd9c0ebb76251b5fa6aaf30b389bb54ae129"
+  },
+  "output_dir": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3",
+  "schema": "round3_effnet_b3_v1",
+  "weights": {
+    "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\pretrained\\efficientnet_b3.ra2_in1k\\model.safetensors",
+    "sha256": "279d2a53898aa89dab43fd6bd7df9f706aea4cb9cf916223988bbcb8e5850469"
+  }
+}

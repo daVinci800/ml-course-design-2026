@@ -1,0 +1,11 @@
+{
+  "schema": "round2_fast_tta_selection_v1",
+  "development_check": "strict OOF only; each sample predicted solely by its held-out fold model",
+  "baseline_4rot_accuracy": 0.9,
+  "d4_accuracy": 0.898,
+  "threshold_for_d4": 0.9,
+  "selected_tta": "4rot",
+  "use_d4_for_final_test": false,
+  "reason": "D4 OOF accuracy 0.898 is below the precommitted 0.900 threshold.",
+  "test_labels_or_leaderboard_used": false
+}

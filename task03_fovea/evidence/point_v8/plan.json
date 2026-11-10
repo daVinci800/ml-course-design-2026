@@ -1,0 +1,25 @@
+{
+  "started_at": "2026-10-27T09:50:56.097139+08:00",
+  "epochs": 160,
+  "average_epochs": [
+    120,
+    140,
+    160
+  ],
+  "imgsz": 960,
+  "trainable": "Only model.23.cv4 point branch; all original detector parameters and BN frozen",
+  "init": "matching-fold v6 only; no cross-fold weight transfer",
+  "lr0": 0.001,
+  "validation": "Only after fixed late-EMA averaging, no best epoch selection",
+  "proposal": {
+    "baseline": 0.75,
+    "point": 0.25
+  },
+  "manifest_hash": "a96bcfd054679cfd7dbe59a87899a933493f9b7b92a7eda1b27bb5e25ac5ddd9",
+  "gate": ">=3% RMSE improvement, >=4/5 folds improve, >=90% paired grouped bootstrap improves, no fold >10% worse",
+  "public_scores": {
+    "baseline": 14.39947,
+    "rejected_v7": 15.94521
+  },
+  "external_data": false
+}

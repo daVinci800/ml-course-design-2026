@@ -1,0 +1,5 @@
+# Choose ONE CPU/CUDA PyTorch installation command from README first.
+numpy>=1.26,<3
+Pillow>=10.4,<13
+torch==2.7.1
+torchvision==0.22.1

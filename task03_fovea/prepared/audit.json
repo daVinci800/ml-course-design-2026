@@ -1,0 +1,33 @@
+{
+  "train": 80,
+  "test": 20,
+  "visible": 80,
+  "absent_ids": [],
+  "sizes": {
+    "1956x1934": 6,
+    "2992x2000": 94
+  },
+  "folds": [
+    16,
+    16,
+    16,
+    16,
+    16
+  ],
+  "grouped_duplicate_ids": [
+    [
+      39,
+      77
+    ]
+  ],
+  "exact_train_test_duplicates": [],
+  "normalized_mean_loo_rmse": 111.5560321081641,
+  "normalized_mean_grouped_oof_rmse": 111.77584833313911,
+  "fov_center_rmse": 121.55005219644362,
+  "fov_relative_grouped_mean_rmse": 112.39687783039135,
+  "oracle_box_center_rmse": 1.9031547173746677,
+  "warnings": [
+    "Patient IDs are unavailable. Exact duplicate grouping cannot exclude all patient-level dependence.",
+    "Oracle box-center error uses ground-truth boxes and is NOT a prediction score."
+  ]
+}

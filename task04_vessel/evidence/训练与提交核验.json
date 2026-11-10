@@ -1,0 +1,117 @@
+{
+  "status": "trained_and_predicted",
+  "folds": [
+    {
+      "fold": 0,
+      "completed_epochs": 74,
+      "best_epoch": 39,
+      "last_session_elapsed_seconds": 1438.106023311615,
+      "best_native_vessel_dice_no_tta_threshold0.5": 0.8235044639006835
+    },
+    {
+      "fold": 1,
+      "completed_epochs": 89,
+      "best_epoch": 54,
+      "last_session_elapsed_seconds": 1449.279179573059,
+      "best_native_vessel_dice_no_tta_threshold0.5": 0.840496716778046
+    },
+    {
+      "fold": 2,
+      "completed_epochs": 76,
+      "best_epoch": 41,
+      "last_session_elapsed_seconds": 1699.7230377197266,
+      "best_native_vessel_dice_no_tta_threshold0.5": 0.8097873649130636
+    },
+    {
+      "fold": 3,
+      "completed_epochs": 89,
+      "best_epoch": 54,
+      "last_session_elapsed_seconds": 3115.461157798767,
+      "best_native_vessel_dice_no_tta_threshold0.5": 0.781093507326343
+    },
+    {
+      "fold": 4,
+      "completed_epochs": 100,
+      "best_epoch": 65,
+      "last_session_elapsed_seconds": 1116.7244782447815,
+      "best_native_vessel_dice_no_tta_threshold0.5": 0.8232912784553673
+    }
+  ],
+  "threshold": 0.07,
+  "native_threshold": 0.53,
+  "tta": true,
+  "ensemble_models": 5,
+  "native_oof_mean_dice": 0.8178716502712463,
+  "native_oof_min_dice": 0.6963635113769684,
+  "official_resize_proxy_oof_mean_dice": 0.8421155564668616,
+  "calibration_elapsed_seconds": 10.00314220006112,
+  "prediction_elapsed_seconds": 21.716712000081316,
+  "training_time_note": "Per-fold last-session wall times exclude earlier sessions when a fold was resumed; do not sum these as total training time.",
+  "csv_foreground": "vessel",
+  "rows": 20,
+  "csv_sha256": "10830020986bad647919ff37912e320c0809cbdbf842f447d3dd84c9029d544d",
+  "all_csv_masks_match_saved_png": true,
+  "calibration": {
+    "threshold": 0.07,
+    "native_threshold": 0.53,
+    "native_best_oof_scores": {
+      "threshold": 0.53,
+      "native_vessel_dice": 0.8178716502712463,
+      "submission_nearest_gt_vessel_dice": 0.8076769503418163,
+      "submission_official_gt_vessel_dice": 0.7595454722815849,
+      "submission_official_gt_background_dice": 0.9709792305234384
+    },
+    "threshold_search_range": [
+      0.01,
+      0.99
+    ],
+    "selection_metric": "submission_official_gt_vessel_dice",
+    "tta": true,
+    "training_fingerprint": "a4b4660616f339ee4b75873bda332bdca57836ed861149666e04e24234059d9e",
+    "best_oof_scores": {
+      "threshold": 0.07,
+      "native_vessel_dice": 0.7901589525643994,
+      "submission_nearest_gt_vessel_dice": 0.7371350680141203,
+      "submission_official_gt_vessel_dice": 0.8421155564668614,
+      "submission_official_gt_background_dice": 0.9766441119674418
+    },
+    "checkpoints": [
+      {
+        "fold": 0,
+        "checkpoint": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-31\\2d-0-255-rules-2026-11\\outputs\\retina_vessel\\runs\\main\\fold0\\best.pt",
+        "sha256": "c13fc019716011807135d5236ad18167357cd73c50a7e5f5523e379d62771308",
+        "completed_epochs": 39
+      },
+      {
+        "fold": 1,
+        "checkpoint": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-31\\2d-0-255-rules-2026-11\\outputs\\retina_vessel\\runs\\main\\fold1\\best.pt",
+        "sha256": "52de62fc8f7879c4c6037238929f50f199e47e30631005b70f225f9eceb5bffb",
+        "completed_epochs": 54
+      },
+      {
+        "fold": 2,
+        "checkpoint": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-31\\2d-0-255-rules-2026-11\\outputs\\retina_vessel\\runs\\main\\fold2\\best.pt",
+        "sha256": "baa7c7daed3dea2eb863b79e827e0ce128cbb046021895d1da01c2fe4b105fa5",
+        "completed_epochs": 41
+      },
+      {
+        "fold": 3,
+        "checkpoint": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-31\\2d-0-255-rules-2026-11\\outputs\\retina_vessel\\runs\\main\\fold3\\best.pt",
+        "sha256": "06b648b99364a193516125e7d272198711ac17d1639bb831ec42804046f2d76d",
+        "completed_epochs": 54
+      },
+      {
+        "fold": 4,
+        "checkpoint": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-31\\2d-0-255-rules-2026-11\\outputs\\retina_vessel\\runs\\main\\fold4\\best.pt",
+        "sha256": "506a93daa56ac4927f3567d2a98af826be49eaebf7048a818b24588865e3c3ca",
+        "completed_epochs": 65
+      }
+    ],
+    "num_oof_images": 20,
+    "caveat": "OOF guides model/threshold selection; selection score is not an unbiased test estimate. Server GT resize/polarity are unverified."
+  },
+  "caveats": [
+    "OOF used for model/threshold selection, not unbiased test performance.",
+    "Server label polarity/resize details were not independently verified. Actual provided labels have white vessels."
+  ]
+}

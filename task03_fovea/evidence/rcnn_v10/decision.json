@@ -1,0 +1,123 @@
+{
+  "baseline": {
+    "rmse": 16.579949904145636,
+    "rmse_x": 20.435566423921838,
+    "rmse_y": 11.496830110140623,
+    "mean_euclidean": 14.55428127880736,
+    "median_euclidean": 7.623930209178642,
+    "p95_euclidean": 55.5404148864944,
+    "max_euclidean": 104.49616183546595,
+    "sdr_20": 0.8125,
+    "sdr_40": 0.9125,
+    "per_fold_rmse": {
+      "0": 9.06015955224154,
+      "1": 16.89363581526011,
+      "2": 28.022087580695125,
+      "3": 11.713389389259731,
+      "4": 9.19518290109615
+    },
+    "per_camera_rmse": {
+      "1956": 8.22353926410278,
+      "2992": 16.99154539401958
+    },
+    "approximate_group_bootstrap_95": [
+      11.321611162325349,
+      21.36163994816689
+    ],
+    "simulated_10_image_rmse_5_95": [
+      5.573579450119022,
+      27.60948502703117
+    ],
+    "warnings": [
+      "OOF checkpoint selection uses these folds; confidence intervals do not remove model-selection bias.",
+      "Ten-image simulation is a sensitivity diagnostic, not a confidence interval for the actual private leaderboard.",
+      "No real negative examples: visibility sensitivity/specificity cannot be estimated."
+    ]
+  },
+  "rcnn": {
+    "rmse": 53.24139552366801,
+    "rmse_x": 24.72533097656215,
+    "rmse_y": 71.11926885672243,
+    "mean_euclidean": 22.367814343000056,
+    "median_euclidean": 7.969173748106161,
+    "p95_euclidean": 54.776343457241964,
+    "max_euclidean": 630.0927604423581,
+    "sdr_20": 0.7875,
+    "sdr_40": 0.9125,
+    "per_fold_rmse": {
+      "0": 8.714672760813837,
+      "1": 111.94812291944108,
+      "2": 35.481508843715666,
+      "3": 11.332505170873215,
+      "4": 13.324417313690583
+    },
+    "per_camera_rmse": {
+      "1956": 8.780181613062963,
+      "2992": 54.94072415962748
+    },
+    "approximate_group_bootstrap_95": [
+      12.074118013141508,
+      89.74139489988319
+    ],
+    "simulated_10_image_rmse_5_95": [
+      5.692519058318032,
+      141.6285478830959
+    ],
+    "warnings": [
+      "OOF checkpoint selection uses these folds; confidence intervals do not remove model-selection bias.",
+      "Ten-image simulation is a sensitivity diagnostic, not a confidence interval for the actual private leaderboard.",
+      "No real negative examples: visibility sensitivity/specificity cannot be estimated."
+    ]
+  },
+  "proposed": {
+    "rmse": 29.403675238978266,
+    "rmse_x": 20.497145663456006,
+    "rmse_y": 36.180371125372304,
+    "mean_euclidean": 16.637032874760138,
+    "median_euclidean": 7.046676134511298,
+    "p95_euclidean": 53.477569076307724,
+    "max_euclidean": 314.30910700435095,
+    "sdr_20": 0.8375,
+    "sdr_40": 0.925,
+    "per_fold_rmse": {
+      "0": 8.229084853669244,
+      "1": 56.707683925387165,
+      "2": 28.308748815313045,
+      "3": 11.152125264976027,
+      "4": 10.660496080005407
+    },
+    "per_camera_rmse": {
+      "1956": 8.124811236167755,
+      "2992": 30.29544005657782
+    },
+    "approximate_group_bootstrap_95": [
+      10.411906234475962,
+      47.44976799829266
+    ],
+    "simulated_10_image_rmse_5_95": [
+      5.081215750008874,
+      71.50076419701551
+    ],
+    "warnings": [
+      "OOF checkpoint selection uses these folds; confidence intervals do not remove model-selection bias.",
+      "Ten-image simulation is a sensitivity diagnostic, not a confidence interval for the actual private leaderboard.",
+      "No real negative examples: visibility sensitivity/specificity cannot be estimated."
+    ]
+  },
+  "weights": {
+    "baseline": 0.5,
+    "rcnn": 0.5
+  },
+  "paired": {
+    "rmse_difference_95": [
+      -3.108030921872701,
+      29.516209020920222
+    ],
+    "fraction_bootstrap_improved": 0.1884,
+    "warning": "Paired grouped diagnostic, conditional on existing selected old checkpoints; not an independent test."
+  },
+  "improved_folds": 2,
+  "recommend_new": false,
+  "old_public_score": 14.39947,
+  "new_public_score": null
+}

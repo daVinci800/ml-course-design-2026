@@ -1,0 +1,6 @@
+numpy>=1.26,<3
+Pillow>=10,<14
+opencv-python-headless>=4.9,<5
+torch>=2.6,<2.7
+torchvision>=0.21,<0.22
+pandas>=2.2,<3

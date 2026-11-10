@@ -1,0 +1,6 @@
+{
+  "recommend_new": false,
+  "oof_rmse": 16.297443026832813,
+  "reason": "Predeclared stability gate failed; retain 14.39947 submission",
+  "wall_minutes": 14.706646333333333
+}

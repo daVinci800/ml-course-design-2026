@@ -1,0 +1,125 @@
+{
+  "baseline": {
+    "rmse": 16.579949904145636,
+    "rmse_x": 20.435566423921838,
+    "rmse_y": 11.496830110140623,
+    "mean_euclidean": 14.55428127880736,
+    "median_euclidean": 7.623930209178642,
+    "p95_euclidean": 55.5404148864944,
+    "max_euclidean": 104.49616183546595,
+    "sdr_20": 0.8125,
+    "sdr_40": 0.9125,
+    "per_fold_rmse": {
+      "0": 9.06015955224154,
+      "1": 16.89363581526011,
+      "2": 28.022087580695125,
+      "3": 11.713389389259731,
+      "4": 9.19518290109615
+    },
+    "per_camera_rmse": {
+      "1956": 8.22353926410278,
+      "2992": 16.99154539401958
+    },
+    "approximate_group_bootstrap_95": [
+      11.321611162325349,
+      21.36163994816689
+    ],
+    "simulated_10_image_rmse_5_95": [
+      5.573579450119022,
+      27.60948502703117
+    ],
+    "warnings": [
+      "OOF checkpoint selection uses these folds; confidence intervals do not remove model-selection bias.",
+      "Ten-image simulation is a sensitivity diagnostic, not a confidence interval for the actual private leaderboard.",
+      "No real negative examples: visibility sensitivity/specificity cannot be estimated."
+    ]
+  },
+  "point": {
+    "rmse": 19.42067100667092,
+    "rmse_x": 23.219858639445345,
+    "rmse_y": 14.668438548900573,
+    "mean_euclidean": 15.712192058868078,
+    "median_euclidean": 7.142460880592658,
+    "p95_euclidean": 64.14211070364725,
+    "max_euclidean": 118.44649038300092,
+    "sdr_20": 0.8125,
+    "sdr_40": 0.9,
+    "per_fold_rmse": {
+      "0": 21.153051053390964,
+      "1": 15.800580346962837,
+      "2": 30.162468991576855,
+      "3": 12.481580181458012,
+      "4": 11.096757368012902
+    },
+    "per_camera_rmse": {
+      "1956": 9.38477269789645,
+      "2992": 19.910676263416057
+    },
+    "approximate_group_bootstrap_95": [
+      12.443140649267578,
+      25.88056118213066
+    ],
+    "simulated_10_image_rmse_5_95": [
+      5.360206546094712,
+      32.430894887946515
+    ],
+    "warnings": [
+      "OOF checkpoint selection uses these folds; confidence intervals do not remove model-selection bias.",
+      "Ten-image simulation is a sensitivity diagnostic, not a confidence interval for the actual private leaderboard.",
+      "No real negative examples: visibility sensitivity/specificity cannot be estimated."
+    ]
+  },
+  "proposed": {
+    "rmse": 16.839708492608622,
+    "rmse_x": 20.61851698442708,
+    "rmse_y": 11.917563576292007,
+    "mean_euclidean": 14.369011229438021,
+    "median_euclidean": 7.014037664024086,
+    "p95_euclidean": 59.86168517936692,
+    "max_euclidean": 110.9221242924021,
+    "sdr_20": 0.8125,
+    "sdr_40": 0.9125,
+    "per_fold_rmse": {
+      "0": 8.61278817959351,
+      "1": 16.287447360254088,
+      "2": 28.916802089128467,
+      "3": 11.957703929696429,
+      "4": 9.962415495675708
+    },
+    "per_camera_rmse": {
+      "1956": 8.671171764810294,
+      "2992": 17.247267018442304
+    },
+    "approximate_group_bootstrap_95": [
+      11.370872721029405,
+      22.01822144415572
+    ],
+    "simulated_10_image_rmse_5_95": [
+      5.291473212843375,
+      28.78803494925427
+    ],
+    "warnings": [
+      "OOF checkpoint selection uses these folds; confidence intervals do not remove model-selection bias.",
+      "Ten-image simulation is a sensitivity diagnostic, not a confidence interval for the actual private leaderboard.",
+      "No real negative examples: visibility sensitivity/specificity cannot be estimated."
+    ]
+  },
+  "weights": {
+    "baseline": 0.5,
+    "point": 0.5
+  },
+  "paired": {
+    "rmse_difference_95": [
+      -0.41777066658392936,
+      0.8347876793144613
+    ],
+    "fraction_bootstrap_improved": 0.2386,
+    "warning": "Paired grouped diagnostic, conditional on existing selected old checkpoints; not an independent test."
+  },
+  "improved_folds": 2,
+  "recommend_new": false,
+  "old_public_score": 14.39947,
+  "rejected_v7_public_score": 15.94521,
+  "new_public_score": null,
+  "policy": "50% old +50% point fixed; >=3% overall improvement, >=4 improved folds, >=90% paired bootstrap improvement, no fold >10% worse."
+}

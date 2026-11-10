@@ -1,0 +1,27 @@
+{
+  "started_at": "2026-10-27T10:27:32.030302+08:00",
+  "epochs": 40,
+  "average_epochs": [
+    30,
+    35,
+    40
+  ],
+  "model": "torchvision FasterRCNN ResNet50 FPN v2",
+  "pretrained_sha256": "dd69338a24b8d7381807e247652bdc356325bcbaf1cd3e092e00e0a1a58706bf",
+  "manifest_hash": "a96bcfd054679cfd7dbe59a87899a933493f9b7b92a7eda1b27bb5e25ac5ddd9",
+  "trainable": "layer3,layer4,FPN,RPN,ROI heads; BN statistics frozen",
+  "lr_backbone": 2e-05,
+  "lr_heads": 0.0002,
+  "batch": 2,
+  "accumulate": 2,
+  "min_size": 800,
+  "max_size": 1280,
+  "target": "Box widths/heights from annotations, centres from precise CSV",
+  "proposal": {
+    "baseline": 0.5,
+    "rcnn": 0.5
+  },
+  "gate": ">=3% overall RMSE improvement, >=4/5 improved folds, >=90% paired grouped bootstrap improvement, no fold >10% worse",
+  "validation": "One fixed late EMA average; no best checkpoint selection",
+  "external_retinal_data": false
+}

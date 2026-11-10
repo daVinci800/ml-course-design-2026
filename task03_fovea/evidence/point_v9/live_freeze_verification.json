@@ -1,0 +1,6 @@
+{
+  "epoch": 50,
+  "frozen_tensors_checked": 447,
+  "changed_frozen_tensors": [],
+  "all_batchnorm_stats_unchanged": true
+}

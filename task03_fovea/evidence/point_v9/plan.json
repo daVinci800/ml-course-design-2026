@@ -1,0 +1,25 @@
+{
+  "started_at": "2026-10-27T10:10:12.893427+08:00",
+  "epochs": 80,
+  "average_epochs": [
+    40,
+    60,
+    80
+  ],
+  "imgsz": 960,
+  "trainable": "Neck and existing point branch; backbone, detection head and all BN running statistics frozen",
+  "init": "matching-fold point_v8 only; no cross-fold weight transfer",
+  "lr0": 5e-05,
+  "validation": "Only after fixed late-EMA averaging, no best epoch selection",
+  "proposal": {
+    "baseline": 0.5,
+    "point": 0.5
+  },
+  "manifest_hash": "a96bcfd054679cfd7dbe59a87899a933493f9b7b92a7eda1b27bb5e25ac5ddd9",
+  "gate": ">=3% RMSE improvement, >=4/5 folds improve, >=90% paired grouped bootstrap improves, no fold >10% worse",
+  "public_scores": {
+    "baseline": 14.39947,
+    "rejected_v7": 15.94521
+  },
+  "external_data": false
+}

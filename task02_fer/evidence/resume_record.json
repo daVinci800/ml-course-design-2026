@@ -1,0 +1,5 @@
+{
+  "resumed_after_epoch": 4,
+  "checkpoint_sha256": "e54420780b8be9a3a7703422c2b247ee338f288a80a3c7139855ff9760b659a3",
+  "note": "Restored raw model, EMA, optimizer, centers and main RNG states. Worker augmentation RNG is restarted; not bitwise identical to an uninterrupted run. Partial next epoch discarded."
+}

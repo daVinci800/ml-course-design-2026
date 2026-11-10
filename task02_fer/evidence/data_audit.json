@@ -1,0 +1,33 @@
+{
+  "total": 28275,
+  "train": 22533,
+  "validation": 5632,
+  "excluded_conflicting_labels": 110,
+  "unique_pixel_groups": 27081,
+  "duplicate_extra_samples": 1194,
+  "class_counts": {
+    "Angry": 3963,
+    "Fear": 4097,
+    "Happy": 7192,
+    "Sad": 4862,
+    "Surprise": 3202,
+    "Neutral": 4959
+  },
+  "train_counts": {
+    "Angry": 3153,
+    "Fear": 3252,
+    "Happy": 5750,
+    "Sad": 3876,
+    "Surprise": 2542,
+    "Neutral": 3960
+  },
+  "validation_counts": {
+    "Angry": 788,
+    "Fear": 813,
+    "Happy": 1437,
+    "Sad": 969,
+    "Surprise": 635,
+    "Neutral": 990
+  },
+  "pixel_hash_overlap": 0
+}

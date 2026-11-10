@@ -1,0 +1,35 @@
+{
+  "folds": [
+    {
+      "fold": 0,
+      "old_detector_tensors_checked": 499,
+      "old_detector_unchanged": true,
+      "averaged_sha256": "24bab6decd624a54ae85c4f081f3a129813dcfe6ac10e9b6606f50ac997d55bb"
+    },
+    {
+      "fold": 1,
+      "old_detector_tensors_checked": 499,
+      "old_detector_unchanged": true,
+      "averaged_sha256": "8473d39d8ab53ca911c9bcd5ef37a56aa77868c9bcac561a27bc7ebb3006e0d4"
+    },
+    {
+      "fold": 2,
+      "old_detector_tensors_checked": 499,
+      "old_detector_unchanged": true,
+      "averaged_sha256": "b80b38b90471483935e71d929f85c54d5046549c0121b0731bf29abf1dbbd12b"
+    },
+    {
+      "fold": 3,
+      "old_detector_tensors_checked": 499,
+      "old_detector_unchanged": true,
+      "averaged_sha256": "19e325898d736392bbec3edc787ae2b899e1ea6e21ad6fdb01593a759c464dce"
+    },
+    {
+      "fold": 4,
+      "old_detector_tensors_checked": 499,
+      "old_detector_unchanged": true,
+      "averaged_sha256": "850dda0a5ac9cb3b62573bec05e02676872671c7ca151e626f9880aaffff0425"
+    }
+  ],
+  "all_frozen_weights_exact": true
+}

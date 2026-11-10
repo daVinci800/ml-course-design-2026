@@ -1,0 +1,280 @@
+{
+  "schema": "round3_effnet_resnet_blend_v1",
+  "elapsed_seconds": 30.508618699997896,
+  "manifest": {
+    "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\data\\folds_v2.csv",
+    "sha256": "f1fd9e212b7332974b009f155f43bd9c0ebb76251b5fa6aaf30b389bb54ae129",
+    "rows": 500
+  },
+  "template": {
+    "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\data\\submission_fortask1.csv",
+    "sha256_before": "468aa112715304004165450c9045261b7ab08e4de2424339647422f6dd649a07",
+    "sha256_after": "468aa112715304004165450c9045261b7ab08e4de2424339647422f6dd649a07",
+    "unchanged": true,
+    "category_values_ignored": true
+  },
+  "test_dir": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\data\\test",
+  "sample_count": 378,
+  "class_names": [
+    "Black-grass",
+    "Common wheat",
+    "Loose Silky-bent",
+    "Scentless Mayweed",
+    "Sugar beet"
+  ],
+  "oof": {
+    "strict": true,
+    "resnet320": {
+      "oof_dir": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round2_multiscale_final\\oof_candidates\\single_320",
+      "evaluation": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round2_multiscale_final\\evaluations\\single_320",
+      "metrics": {
+        "total": 500,
+        "correct": 454,
+        "pooled_accuracy": 0.908,
+        "macro_f1": 0.9081892835378909,
+        "multiclass_log_loss": 0.2614380436289495,
+        "multiclass_brier_score": 0.14363929308126788
+      }
+    },
+    "efficientnet_b3": {
+      "oof_dir": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\oof",
+      "evaluation": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\evaluation",
+      "metrics": {
+        "total": 500,
+        "correct": 454,
+        "pooled_accuracy": 0.908,
+        "macro_f1": 0.9076636417830025,
+        "multiclass_log_loss": 0.2742985069278133,
+        "multiclass_brier_score": 0.13319842341743454
+      }
+    },
+    "fixed_50_50": {
+      "oof_dir": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_resnet_blend\\oof_50_50",
+      "evaluation": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_resnet_blend\\evaluation_50_50",
+      "metrics": {
+        "total": 500,
+        "correct": 460,
+        "pooled_accuracy": 0.92,
+        "macro_f1": 0.9201973422011548,
+        "multiclass_log_loss": 0.2247047498807112,
+        "multiclass_brier_score": 0.12394218380971293
+      }
+    }
+  },
+  "selection": {
+    "schema": "round3_effnet_resnet_selection_v1",
+    "predeclared_candidates": [
+      "resnet320",
+      "efficientnet_b3",
+      "fixed_50_50"
+    ],
+    "selection_metric": "pooled_accuracy",
+    "fixed_blend_weights": {
+      "resnet320": 0.5,
+      "efficientnet_b3": 0.5
+    },
+    "candidates": [
+      {
+        "name": "resnet320",
+        "total": 500,
+        "correct": 454,
+        "pooled_accuracy": 0.908,
+        "macro_f1": 0.9081892835378909,
+        "multiclass_log_loss": 0.2614380436289495,
+        "multiclass_brier_score": 0.14363929308126788
+      },
+      {
+        "name": "efficientnet_b3",
+        "total": 500,
+        "correct": 454,
+        "pooled_accuracy": 0.908,
+        "macro_f1": 0.9076636417830025,
+        "multiclass_log_loss": 0.2742985069278133,
+        "multiclass_brier_score": 0.13319842341743454
+      },
+      {
+        "name": "fixed_50_50",
+        "total": 500,
+        "correct": 460,
+        "pooled_accuracy": 0.92,
+        "macro_f1": 0.9201973422011548,
+        "multiclass_log_loss": 0.2247047498807112,
+        "multiclass_brier_score": 0.12394218380971293
+      }
+    ],
+    "selected": "fixed_50_50",
+    "selection_reason": "50:50 达到最高 OOF accuracy（并列也保留预声明融合）",
+    "test_labels_used": false,
+    "leaderboard_used": false,
+    "external_old_resnet_final_blend_score_92_06_excluded": true
+  },
+  "test_components": {
+    "resnet320_fivefold": {
+      "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round2_multiscale_final\\fivefold_test_probabilities.csv",
+      "sha256": "db5d2df575934bc5a847d68e950f99932294eadf9696d14fca6955ec4563ef70",
+      "full500_included": false
+    },
+    "efficientnet_b3_fivefold": {
+      "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\test_inference\\test_probabilities.csv",
+      "sha256": "db350ec66dd12cca93b963fd198cb4f0a9e76a6bd3c3ce7d2fc2c87b27b2f6e6",
+      "checkpoints": [
+        {
+          "fold": 0,
+          "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\fold_0\\final_weights.pt",
+          "sha256": "9993b4ddda78974dac16bcd0b180949c0e7304e2880b040658cc3c22451a6299"
+        },
+        {
+          "fold": 1,
+          "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\fold_1\\final_weights.pt",
+          "sha256": "f60a9e20483763e3e789f15fbcdcbe7366d43a1a2341e9d00f70a1f164df3556"
+        },
+        {
+          "fold": 2,
+          "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\fold_2\\final_weights.pt",
+          "sha256": "f5fa08c46d2a3c94064ac8e4a441ad1dc6ada2f560452752560888bdf1bf8d6b"
+        },
+        {
+          "fold": 3,
+          "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\fold_3\\final_weights.pt",
+          "sha256": "7b47d800af4f4a086d8f4721cbb120f1e442ed15f9f78a12cf1b38f3d75209f8"
+        },
+        {
+          "fold": 4,
+          "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\fold_4\\final_weights.pt",
+          "sha256": "99fc1bdcfe229a4e383bb0944433901d3a82f441dcf5fdbfa0bb330bd7021e9d"
+        }
+      ],
+      "full500_included": false
+    }
+  },
+  "selected_test_rule": "fixed_50_50",
+  "prediction_counts": {
+    "Black-grass": 61,
+    "Common wheat": 35,
+    "Loose Silky-bent": 110,
+    "Scentless Mayweed": 90,
+    "Sugar beet": 82
+  },
+  "validation": {
+    "expected_sample_count": 378,
+    "actual_sample_count": 378,
+    "ids_unique": true,
+    "ids_match_test_png_set": true,
+    "id_order_matches_template": true,
+    "probabilities_finite_nonnegative": true,
+    "probability_sums_one": true,
+    "prediction_equals_argmax": true,
+    "categories_legal": true,
+    "template_hash_unchanged": true,
+    "no_full500_component": true,
+    "no_weight_tuning": true,
+    "no_test_or_leaderboard_labels_used": true
+  },
+  "artifacts": {
+    "probabilities": {
+      "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_resnet_blend\\probabilities.csv",
+      "sha256": "00503ddb7eb4b3144d0da0d7bc5a6eea221faec444894f7ae214e5b3a7db3100"
+    },
+    "submission": {
+      "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_resnet_blend\\submission.csv",
+      "sha256": "7cb692381c4dc59b47e7c0d6f7020b54705f920efa7076d303354916756050d3"
+    },
+    "selection": {
+      "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_resnet_blend\\selection.json",
+      "sha256": "619905321bae3705abbde5affa400da78ff468b057478e55c343859df77f4e07"
+    }
+  },
+  "effnet_run_config": {
+    "config": {
+      "accumulation_steps": 2,
+      "augmentation": {
+        "affine_scale": [
+          0.9,
+          1.1
+        ],
+        "affine_translate": 0.05,
+        "color_jitter": [
+          0.15,
+          0.15,
+          0.15,
+          0.02
+        ],
+        "random_d4": true,
+        "resize": 288,
+        "square_pad_fill": [
+          124,
+          116,
+          104
+        ]
+      },
+      "batch_size": 16,
+      "ema": false,
+      "epochs": 30,
+      "gradient_clip_norm": 1.0,
+      "head_only_epochs": 2,
+      "image_size": 288,
+      "loss": {
+        "label_smoothing": 0.0,
+        "name": "cross_entropy"
+      },
+      "manifest_sha256": "f1fd9e212b7332974b009f155f43bd9c0ebb76251b5fa6aaf30b389bb54ae129",
+      "mode": "formal",
+      "model": "efficientnet_b3.ra2_in1k",
+      "no_decay_rule": "bias_or_ndim_le_1",
+      "num_classes": 5,
+      "num_folds": 5,
+      "num_workers": 0,
+      "oof_tta_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "optimizer": "AdamW",
+      "precision": "bf16",
+      "pretrained": true,
+      "scheduler": {
+        "epoch_3": {
+          "backbone_linear": [
+            1e-05,
+            0.0001
+          ],
+          "head": 0.0003
+        },
+        "epochs_1_2": {
+          "backbone": 0.0,
+          "head": 0.001
+        },
+        "epochs_4_30": {
+          "backbone_cosine": [
+            0.0001,
+            1e-06
+          ],
+          "head_cosine": [
+            0.0003,
+            3e-06
+          ]
+        },
+        "unit": "successful_optimizer_update"
+      },
+      "schema": "round3_effnet_b3_v1",
+      "seed": 2026,
+      "selection": "fixed_final_epoch_raw",
+      "validation": "deterministic_full_square_pad_resize",
+      "weight_decay": 0.01,
+      "weight_sha256": "279d2a53898aa89dab43fd6bd7df9f706aea4cb9cf916223988bbcb8e5850469"
+    },
+    "config_hash": "e37482e6a516376d5c26ca9b8ffc49e26c7da42fb3a7eec2681215e18f25a4ac",
+    "manifest": {
+      "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\data\\folds_v2.csv",
+      "rows": 500,
+      "sha256": "f1fd9e212b7332974b009f155f43bd9c0ebb76251b5fa6aaf30b389bb54ae129"
+    },
+    "output_dir": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3",
+    "schema": "round3_effnet_b3_v1",
+    "weights": {
+      "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\pretrained\\efficientnet_b3.ra2_in1k\\model.safetensors",
+      "sha256": "279d2a53898aa89dab43fd6bd7df9f706aea4cb9cf916223988bbcb8e5850469"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+# Python bytecode and tooling caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and IDE metadata
+.venv/
+venv/
+.idea/
+.vscode/
+.env
+.env.*
+
+# Training/evaluation outputs
+runs/
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+wandb/
+mlruns/
+
+# Generated predictions and reports placed at repository root
+/submission*.csv
+/oof*.csv
+/metrics*.json
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# Deliberately do not ignore src/, tests/, or data/: source and raw-data
+# versioning policy should be explicit rather than hidden by a broad rule.

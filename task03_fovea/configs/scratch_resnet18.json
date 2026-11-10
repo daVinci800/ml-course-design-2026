@@ -1,0 +1,19 @@
+{
+  "name": "scratch_resnet18_ablation",
+  "seed": 20261020,
+  "backbone": "resnet18",
+  "pretrained": false,
+  "decoder_channels": 64,
+  "batch_size": 2,
+  "workers": 0,
+  "amp": true,
+  "tta": true,
+  "encoder_lr_factor": 1.0,
+  "weight_decay": 0.0001,
+  "ema_decay": 0.99,
+  "box_weight": 0.15,
+  "initialize_fine_from_coarse": true,
+  "train_presence_if_available": true,
+  "coarse": {"size": 640, "epochs": 220, "repeats": 4, "lr": 0.0003, "warmup_epochs": 5, "patience": 45, "sigma": 1.7, "coordinate_scale": 100.0},
+  "fine": {"size": 512, "crop_side": 640.0, "epochs": 200, "repeats": 6, "lr": 0.00015, "warmup_epochs": 5, "patience": 45, "sigma": 1.5, "coordinate_scale": 50.0, "jitter_px": 55.0, "wide_jitter_probability": 0.15, "wide_jitter_px": 125.0}
+}

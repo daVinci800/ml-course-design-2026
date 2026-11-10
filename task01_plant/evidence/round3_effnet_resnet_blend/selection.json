@@ -1,0 +1,47 @@
+{
+  "schema": "round3_effnet_resnet_selection_v1",
+  "predeclared_candidates": [
+    "resnet320",
+    "efficientnet_b3",
+    "fixed_50_50"
+  ],
+  "selection_metric": "pooled_accuracy",
+  "fixed_blend_weights": {
+    "resnet320": 0.5,
+    "efficientnet_b3": 0.5
+  },
+  "candidates": [
+    {
+      "name": "resnet320",
+      "total": 500,
+      "correct": 454,
+      "pooled_accuracy": 0.908,
+      "macro_f1": 0.9081892835378909,
+      "multiclass_log_loss": 0.2614380436289495,
+      "multiclass_brier_score": 0.14363929308126788
+    },
+    {
+      "name": "efficientnet_b3",
+      "total": 500,
+      "correct": 454,
+      "pooled_accuracy": 0.908,
+      "macro_f1": 0.9076636417830025,
+      "multiclass_log_loss": 0.2742985069278133,
+      "multiclass_brier_score": 0.13319842341743454
+    },
+    {
+      "name": "fixed_50_50",
+      "total": 500,
+      "correct": 460,
+      "pooled_accuracy": 0.92,
+      "macro_f1": 0.9201973422011548,
+      "multiclass_log_loss": 0.2247047498807112,
+      "multiclass_brier_score": 0.12394218380971293
+    }
+  ],
+  "selected": "fixed_50_50",
+  "selection_reason": "50:50 达到最高 OOF accuracy（并列也保留预声明融合）",
+  "test_labels_used": false,
+  "leaderboard_used": false,
+  "external_old_resnet_final_blend_score_92_06_excluded": true
+}

@@ -1,0 +1,29 @@
+{
+  "rows": 40,
+  "template_exact": true,
+  "finite_and_in_bounds": true,
+  "baseline_unchanged": true,
+  "checkpoints": [
+    {
+      "seed": 20261027,
+      "training_count": 80,
+      "verified_training_epochs": 160,
+      "sha256": "316fb4b9c4af23604344ebda1829db664c628697eeea16aef0ea7c4d4ad048be"
+    },
+    {
+      "seed": 20261028,
+      "training_count": 80,
+      "verified_training_epochs": 160,
+      "sha256": "9096775d112a8a65c98959ddb067bae5348d11a365c2cfd779e4ff69b8908911"
+    },
+    {
+      "seed": 20261029,
+      "training_count": 80,
+      "verified_training_epochs": 160,
+      "sha256": "39bd348e9453b46083e53f9c972a903d917c3acdc180ceef2c935b473e14aa1b"
+    }
+  ],
+  "submission_sha256": "707ad55aed0110458a3cf4dc1ea498e7eca7698ffc278eff8d9868ed50ffeac8",
+  "new_oof_rmse": null,
+  "new_public_rmse": null
+}

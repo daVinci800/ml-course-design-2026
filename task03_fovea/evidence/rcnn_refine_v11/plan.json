@@ -1,0 +1,23 @@
+{
+  "declared_at": "2026-10-27T10:40:41.896878+08:00",
+  "radius_fraction": 0.1,
+  "candidate_count": 100,
+  "choose": "Highest confidence inside fixed radius around matching-fold old model; otherwise old point",
+  "weights": {
+    "baseline": 0.5,
+    "rcnn": 0.5
+  },
+  "gate": ">=3% overall improvement, >=4 improved folds, >=90% paired grouped bootstrap improvement, no fold >10% worse",
+  "reason": "After observing only raw RCNN folds0/1, fold1 contains a 639px jump; reject anatomically distant false proposals globally.",
+  "first_raw_folds_seen": [
+    0,
+    1
+  ],
+  "remaining_folds_not_used_to_set_rule": [
+    2,
+    3,
+    4
+  ],
+  "no_test_predictions_observed": true,
+  "limitation": "Adaptive validation policy, not independent nested validation. No threshold search after this amendment."
+}

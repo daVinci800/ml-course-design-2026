@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "device": "cpu",
+  "torch": "2.6.0+cpu",
+  "parameters": 4662327,
+  "input_shape": [
+    4,
+    584,
+    565
+  ],
+  "output_shape": [
+    1,
+    1,
+    584,
+    565
+  ],
+  "finite_loss": 1.069907307624817,
+  "loss_details": {
+    "bce": 0.8012446761131287,
+    "dice_loss": 0.8541311025619507,
+    "cldice_loss": 0.8198674917221069,
+    "cldice_ramp": 1.0
+  },
+  "training_started": false,
+  "optimizer_steps": 0,
+  "backward_calls": 0,
+  "weights_unchanged": true,
+  "note": "Loss is from random initialization and has no predictive-performance meaning."
+}

@@ -1,0 +1,29 @@
+{
+  "started_at": "2026-10-27T10:54:10.096579+08:00",
+  "seeds": [
+    20261027,
+    20261028,
+    20261029
+  ],
+  "epochs": 160,
+  "average_epochs": [
+    80,
+    120,
+    160
+  ],
+  "imgsz": 960,
+  "batch": 4,
+  "lr0": 0.0001,
+  "warmup_bias_lr": 0.0,
+  "training_count": 80,
+  "architecture": "Same YOLO11s COCO architecture as public14.39947 recipe",
+  "validation": "No held-out rows. Do not report terminal training mAP as validation. No test ground truth.",
+  "weights": {
+    "baseline": 0.25,
+    "all_data": 0.75
+  },
+  "manifest_hash": "a96bcfd054679cfd7dbe59a87899a933493f9b7b92a7eda1b27bb5e25ac5ddd9",
+  "rationale": "The three new architectural experiments failed stability gates. Refit the validated old architecture on all supplied labels.",
+  "source": "Cached official COCO yolo11s; no external retinal labels",
+  "public_score_unknown": true
+}

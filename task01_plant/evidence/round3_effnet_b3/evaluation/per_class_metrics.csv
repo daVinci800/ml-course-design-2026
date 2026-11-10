@@ -1,0 +1,6 @@
+class_index,class_name,support,predicted_count,true_positive,false_positive,false_negative,precision,recall,f1
+0,Black-grass,100,101,80,21,20,0.7920792079207921,0.8,0.7960199004975126
+1,Common wheat,100,102,94,8,6,0.9215686274509803,0.94,0.9306930693069307
+2,Loose Silky-bent,100,96,81,15,19,0.84375,0.81,0.826530612244898
+3,Scentless Mayweed,100,100,100,0,0,1.0,1.0,1.0
+4,Sugar beet,100,101,99,2,1,0.9801980198019802,0.99,0.9850746268656716

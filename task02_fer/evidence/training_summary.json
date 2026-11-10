@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "epochs": 12,
+  "elapsed_seconds_last_session": 678.8453069000971,
+  "completed_epoch_seconds": 1043.141828900203,
+  "best_validation_macro_f1": 0.6710506194630844,
+  "best_validation_accuracy": 0.6885653409090909,
+  "peak_allocated_memory_mb": 2443.4794921875,
+  "resumed_after_epoch": 4,
+  "partial_epoch_time_excluded": true
+}

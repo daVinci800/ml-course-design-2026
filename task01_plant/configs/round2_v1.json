@@ -1,0 +1,137 @@
+{
+  "schema_version": 3,
+  "recipe_id": "round2_v1",
+  "protocol": "locked_final_epoch_raw_dual_view_5fold",
+  "manifest": "data/folds_v2.csv",
+  "data_root": "data",
+  "test_dir": "data/test",
+  "submission_template": "data/submission_fortask1.csv",
+  "output_root": "runs/round2_locked",
+  "num_classes": 5,
+  "num_folds": 5,
+  "image_size": 288,
+  "views": [
+    "full",
+    "roi"
+  ],
+  "view_weights": [
+    0.5,
+    0.5
+  ],
+  "train_view_aggregation": "mean_logits",
+  "batch_size": 16,
+  "gradient_accumulation_steps": 2,
+  "effective_batch_size": 32,
+  "oom_fallback": {
+    "batch_size": 8,
+    "gradient_accumulation_steps": 4,
+    "effective_batch_size": 32
+  },
+  "epochs": 45,
+  "head_only_epochs": 3,
+  "optimizer": {
+    "name": "AdamW",
+    "backbone_lr": 0.0001,
+    "head_lr": 0.0003,
+    "weight_decay": 0.01,
+    "no_decay_weight_decay": 0.0
+  },
+  "scheduler": {
+    "name": "round2_two_stage",
+    "head_only_lr": 0.0003,
+    "backbone_unfreeze_start_lr": 1e-05,
+    "backbone_unfreeze_end_lr": 0.0001,
+    "backbone_final_lr": 1e-06,
+    "head_final_lr": 3e-06,
+    "step_unit": "optimizer_update"
+  },
+  "loss": {
+    "name": "cross_entropy",
+    "label_smoothing": 0.05
+  },
+  "gradient_clip_norm": 1.0,
+  "precision": "bf16_auto",
+  "ema_decay": 0.0,
+  "final_weights": "raw",
+  "selection": "fixed_final_epoch",
+  "early_stopping": false,
+  "save_best": false,
+  "augmentation": {
+    "d4": true,
+    "scale_range": [
+      0.9,
+      1.1
+    ],
+    "max_translate_fraction": 0.05,
+    "color_jitter": {
+      "brightness": 0.15,
+      "contrast": 0.15,
+      "saturation": 0.15,
+      "hue": 0.02
+    },
+    "random_resized_crop": false,
+    "random_erasing": false,
+    "mixup": false,
+    "cutmix": false
+  },
+  "tta_rotations_degrees": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "tta_views": [
+    "full",
+    "roi"
+  ],
+  "tta_probability_weights": "equal_float32",
+  "ensemble": {
+    "slot_weights": {
+      "A": 0.5,
+      "B": 0.5
+    },
+    "fold_weights": "equal"
+  },
+  "slots": {
+    "A": {
+      "requested_model_id": "efficientnet_b3.ra2_in1k",
+      "fallback_model_id": "resnet50.a1_in1k",
+      "seed": 2026,
+      "pretrained_required": true
+    },
+    "B": {
+      "requested_model_id": "convnext_tiny.fb_in22k",
+      "fallback_model_id": "resnet50.a1_in1k",
+      "seed": 3407,
+      "pretrained_required": true
+    }
+  },
+  "roi": {
+    "algorithm": "fixed-green-exg-hsv-roi",
+    "algorithm_version": "1.0.0",
+    "config": {
+      "exg_threshold": 0.08,
+      "hue_min_degrees": 30.0,
+      "hue_max_degrees": 170.0,
+      "saturation_min": 0.15,
+      "value_min": 0.1,
+      "opening_size": 3,
+      "closing_size": 5,
+      "min_component_pixels": 16,
+      "min_foreground_pixels": 32,
+      "min_foreground_fraction": 0.001,
+      "max_foreground_fraction": 0.98,
+      "min_bbox_fraction": 0.01,
+      "min_crop_fraction": 0.01,
+      "max_crop_fraction": 0.9,
+      "expansion_factor": 1.4
+    }
+  },
+  "checkpoint": {
+    "schema_version": 3,
+    "last_filename": "last.pt",
+    "final_filename": "final_weights.pt",
+    "atomic_last": true,
+    "epoch_boundary_only": true
+  }
+}

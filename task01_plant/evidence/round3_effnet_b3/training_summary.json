@@ -1,0 +1,103 @@
+{
+  "completed_folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "config_hash": "e37482e6a516376d5c26ca9b8ffc49e26c7da42fb3a7eec2681215e18f25a4ac",
+  "folds": {
+    "0": {
+      "checkpoint": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\fold_0\\last.pt",
+      "epochs": 30,
+      "final_val": {
+        "acc": 0.89,
+        "loss": 0.37106810688972475,
+        "macro_f1": 0.8897407502058664,
+        "samples": 100
+      },
+      "final_weights": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\fold_0\\final_weights.pt",
+      "fold": 0,
+      "oof": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\oof\\fold_0.csv",
+      "oof_tta": {
+        "acc": 0.92,
+        "macro_f1": 0.9199999999999999
+      },
+      "peak_memory_mb": 2407.46923828125
+    },
+    "1": {
+      "checkpoint": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\fold_1\\last.pt",
+      "epochs": 30,
+      "final_val": {
+        "acc": 0.87,
+        "loss": 0.43041228532791137,
+        "macro_f1": 0.8662246439480221,
+        "samples": 100
+      },
+      "final_weights": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\fold_1\\final_weights.pt",
+      "fold": 1,
+      "oof": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\oof\\fold_1.csv",
+      "oof_tta": {
+        "acc": 0.86,
+        "macro_f1": 0.8562802523778134
+      },
+      "peak_memory_mb": 2408.13720703125
+    },
+    "2": {
+      "checkpoint": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\fold_2\\last.pt",
+      "epochs": 30,
+      "final_val": {
+        "acc": 0.91,
+        "loss": 0.48479122400283814,
+        "macro_f1": 0.9097109051107918,
+        "samples": 100
+      },
+      "final_weights": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\fold_2\\final_weights.pt",
+      "fold": 2,
+      "oof": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\oof\\fold_2.csv",
+      "oof_tta": {
+        "acc": 0.92,
+        "macro_f1": 0.920087272590482
+      },
+      "peak_memory_mb": 2408.13720703125
+    },
+    "3": {
+      "checkpoint": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\fold_3\\last.pt",
+      "epochs": 30,
+      "final_val": {
+        "acc": 0.93,
+        "loss": 0.2615560925006866,
+        "macro_f1": 0.9292063492063491,
+        "samples": 100
+      },
+      "final_weights": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\fold_3\\final_weights.pt",
+      "fold": 3,
+      "oof": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\oof\\fold_3.csv",
+      "oof_tta": {
+        "acc": 0.95,
+        "macro_f1": 0.950163400997804
+      },
+      "peak_memory_mb": 2408.13720703125
+    },
+    "4": {
+      "checkpoint": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\fold_4\\last.pt",
+      "epochs": 30,
+      "final_val": {
+        "acc": 0.89,
+        "loss": 1.3372159683704377,
+        "macro_f1": 0.8892731829573934,
+        "samples": 100
+      },
+      "final_weights": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\fold_4\\final_weights.pt",
+      "fold": 4,
+      "oof": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round3_effnet_b3\\oof\\fold_4.csv",
+      "oof_tta": {
+        "acc": 0.89,
+        "macro_f1": 0.8892120075046904
+      },
+      "peak_memory_mb": 2408.13720703125
+    }
+  },
+  "schema": "round3_effnet_b3_v1"
+}

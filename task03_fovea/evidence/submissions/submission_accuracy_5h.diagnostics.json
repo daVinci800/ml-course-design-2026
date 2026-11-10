@@ -1,0 +1,250 @@
+{
+  "predictions": {
+    "81": {
+      "xy": [
+        1699.4373511141953,
+        1143.97210686908
+      ],
+      "ensemble_spread": 35.36514011970722,
+      "tta_spread": 30.976309810515005,
+      "coarse_to_fine_shift": 32.659503218616294,
+      "flag": true,
+      "visibility_policy": "all-visible: no real negative training examples"
+    },
+    "82": {
+      "xy": [
+        1689.0052874921662,
+        1101.6898533891567
+      ],
+      "ensemble_spread": 2.29496317830598,
+      "tta_spread": 1.5327276566229462,
+      "coarse_to_fine_shift": 3.912951205682419,
+      "flag": false,
+      "visibility_policy": "all-visible: no real negative training examples"
+    },
+    "83": {
+      "xy": [
+        1489.326753763446,
+        1044.5030397997016
+      ],
+      "ensemble_spread": 1.5854372089132696,
+      "tta_spread": 1.0488419236501854,
+      "coarse_to_fine_shift": 7.75216611787725,
+      "flag": false,
+      "visibility_policy": "all-visible: no real negative training examples"
+    },
+    "84": {
+      "xy": [
+        1236.108583579709,
+        1114.5166008649085
+      ],
+      "ensemble_spread": 1.5917297737031124,
+      "tta_spread": 1.1879880241151377,
+      "coarse_to_fine_shift": 9.001850388161298,
+      "flag": false,
+      "visibility_policy": "all-visible: no real negative training examples"
+    },
+    "85": {
+      "xy": [
+        1201.4599493949263,
+        982.5647082646565
+      ],
+      "ensemble_spread": 1.5081838460201853,
+      "tta_spread": 0.643423360044831,
+      "coarse_to_fine_shift": 4.023964856308395,
+      "flag": false,
+      "visibility_policy": "all-visible: no real negative training examples"
+    },
+    "86": {
+      "xy": [
+        1235.406275772562,
+        1110.0686673273942
+      ],
+      "ensemble_spread": 27.862159278780464,
+      "tta_spread": 16.96094405402388,
+      "coarse_to_fine_shift": 26.227972975739,
+      "flag": false,
+      "visibility_policy": "all-visible: no real negative training examples"
+    },
+    "87": {
+      "xy": [
+        1471.1306935261896,
+        1010.9886160551739
+      ],
+      "ensemble_spread": 6.98121281081277,
+      "tta_spread": 3.028027198349622,
+      "coarse_to_fine_shift": 7.545685005981765,
+      "flag": false,
+      "visibility_policy": "all-visible: no real negative training examples"
+    },
+    "88": {
+      "xy": [
+        1252.0179678797208,
+        1121.0243620964648
+      ],
+      "ensemble_spread": 2.6057986825119266,
+      "tta_spread": 1.5607404686178081,
+      "coarse_to_fine_shift": 5.021833763241479,
+      "flag": false,
+      "visibility_policy": "all-visible: no real negative training examples"
+    },
+    "89": {
+      "xy": [
+        1475.8549447739445,
+        1051.8013960083413
+      ],
+      "ensemble_spread": 1.9968991924449366,
+      "tta_spread": 1.0956821652852515,
+      "coarse_to_fine_shift": 7.465023087436488,
+      "flag": false,
+      "visibility_policy": "all-visible: no real negative training examples"
+    },
+    "90": {
+      "xy": [
+        1664.7269902308515,
+        1093.013448016752
+      ],
+      "ensemble_spread": 1.6415548661233534,
+      "tta_spread": 0.9416204460452977,
+      "coarse_to_fine_shift": 3.4525530731071177,
+      "flag": false,
+      "visibility_policy": "all-visible: no real negative training examples"
+    },
+    "91": {
+      "xy": [
+        1482.3655128816922,
+        1043.190698761302
+      ],
+      "ensemble_spread": 11.006677723986437,
+      "tta_spread": 7.801457523919062,
+      "coarse_to_fine_shift": 11.76797121300076,
+      "flag": false,
+      "visibility_policy": "all-visible: no real negative training examples"
+    },
+    "92": {
+      "xy": [
+        1698.5257507744914,
+        1099.317241088063
+      ],
+      "ensemble_spread": 1.4699817117076828,
+      "tta_spread": 1.0482582272442518,
+      "coarse_to_fine_shift": 2.7081900140111275,
+      "flag": false,
+      "visibility_policy": "all-visible: no real negative training examples"
+    },
+    "93": {
+      "xy": [
+        1694.8936028083451,
+        1162.6159982694858
+      ],
+      "ensemble_spread": 0.788348251109637,
+      "tta_spread": 0.8587453050737093,
+      "coarse_to_fine_shift": 2.953791506474739,
+      "flag": false,
+      "visibility_policy": "all-visible: no real negative training examples"
+    },
+    "94": {
+      "xy": [
+        1446.7397761613058,
+        1025.0962268978915
+      ],
+      "ensemble_spread": 1.8512930882272638,
+      "tta_spread": 1.0712263681598355,
+      "coarse_to_fine_shift": 4.563253405821911,
+      "flag": false,
+      "visibility_policy": "all-visible: no real negative training examples"
+    },
+    "95": {
+      "xy": [
+        1671.6051743913135,
+        1096.2623484954286
+      ],
+      "ensemble_spread": 1.178638024340016,
+      "tta_spread": 0.8578731744336426,
+      "coarse_to_fine_shift": 4.8971226828300285,
+      "flag": false,
+      "visibility_policy": "all-visible: no real negative training examples"
+    },
+    "96": {
+      "xy": [
+        1702.7061237278165,
+        1071.9738586974986
+      ],
+      "ensemble_spread": 4.508704563765151,
+      "tta_spread": 3.6845151847440007,
+      "coarse_to_fine_shift": 10.945527417819326,
+      "flag": false,
+      "visibility_policy": "all-visible: no real negative training examples"
+    },
+    "97": {
+      "xy": [
+        1495.3765977764153,
+        1203.435802144018
+      ],
+      "ensemble_spread": 3.4308340303738447,
+      "tta_spread": 1.8486872498657516,
+      "coarse_to_fine_shift": 10.42602498315577,
+      "flag": false,
+      "visibility_policy": "all-visible: no real negative training examples"
+    },
+    "98": {
+      "xy": [
+        1472.7103625468171,
+        1069.2053008569994
+      ],
+      "ensemble_spread": 0.9025152068115067,
+      "tta_spread": 0.8900661105393706,
+      "coarse_to_fine_shift": 3.439662457611579,
+      "flag": false,
+      "visibility_policy": "all-visible: no real negative training examples"
+    },
+    "99": {
+      "xy": [
+        1462.719800858565,
+        1029.8988657918399
+      ],
+      "ensemble_spread": 4.87649322637768,
+      "tta_spread": 2.4100691008973185,
+      "coarse_to_fine_shift": 6.435383120384685,
+      "flag": false,
+      "visibility_policy": "all-visible: no real negative training examples"
+    },
+    "100": {
+      "xy": [
+        1686.9020912547567,
+        1094.2384403292976
+      ],
+      "ensemble_spread": 0.7596170790258471,
+      "tta_spread": 0.7952708835587948,
+      "coarse_to_fine_shift": 1.8196377555940049,
+      "flag": false,
+      "visibility_policy": "all-visible: no real negative training examples"
+    }
+  },
+  "checkpoints": [
+    [
+      "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-20\\1-0-0-2-3-rules\\outputs\\fovea_solution\\runs\\accuracy_5h\\fold_0\\coarse_best.pt",
+      "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-20\\1-0-0-2-3-rules\\outputs\\fovea_solution\\runs\\accuracy_5h\\fold_0\\fine_best.pt"
+    ],
+    [
+      "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-20\\1-0-0-2-3-rules\\outputs\\fovea_solution\\runs\\accuracy_5h\\fold_1\\coarse_best.pt",
+      "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-20\\1-0-0-2-3-rules\\outputs\\fovea_solution\\runs\\accuracy_5h\\fold_1\\fine_best.pt"
+    ],
+    [
+      "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-20\\1-0-0-2-3-rules\\outputs\\fovea_solution\\runs\\accuracy_5h\\fold_2\\coarse_best.pt",
+      "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-20\\1-0-0-2-3-rules\\outputs\\fovea_solution\\runs\\accuracy_5h\\fold_2\\fine_best.pt"
+    ],
+    [
+      "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-20\\1-0-0-2-3-rules\\outputs\\fovea_solution\\runs\\accuracy_5h\\fold_3\\coarse_best.pt",
+      "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-20\\1-0-0-2-3-rules\\outputs\\fovea_solution\\runs\\accuracy_5h\\fold_3\\fine_best.pt"
+    ],
+    [
+      "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-20\\1-0-0-2-3-rules\\outputs\\fovea_solution\\runs\\accuracy_5h\\fold_4\\coarse_best.pt",
+      "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-20\\1-0-0-2-3-rules\\outputs\\fovea_solution\\runs\\accuracy_5h\\fold_4\\fine_best.pt"
+    ]
+  ],
+  "tta": true,
+  "stage": "fine",
+  "policy": "integral_fixed",
+  "warning": "Flags are for model diagnostics only. Competition rules prohibit hand-labeling test coordinates or visibility."
+}

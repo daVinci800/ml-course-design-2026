@@ -1,0 +1,50 @@
+{
+  "recipes": {
+    "baseline": {
+      "baseline": 1.0
+    },
+    "detector": {
+      "detector": 1.0
+    },
+    "baseline_detector": {
+      "baseline": 0.5,
+      "detector": 0.5
+    },
+    "v4": {
+      "v4": 1.0
+    },
+    "v4_detector": {
+      "v4": 0.5,
+      "detector": 0.5
+    },
+    "detector_refined": {
+      "refined": 1.0
+    },
+    "baseline_refined": {
+      "baseline": 0.5,
+      "refined": 0.5
+    },
+    "detector_and_refined": {
+      "detector": 0.5,
+      "refined": 0.5
+    },
+    "v4_refined": {
+      "v4": 0.5,
+      "refined": 0.5
+    }
+  },
+  "manifest_hash": "a96bcfd054679cfd7dbe59a87899a933493f9b7b92a7eda1b27bb5e25ac5ddd9",
+  "pretrained_source": "Official Ultralytics YOLO11s COCO detector; no external retinal task weights.",
+  "weights_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+  "ultralytics": "8.3.221",
+  "imgsz": 960,
+  "epochs": 160,
+  "batch": 4,
+  "lr0": 0.0001,
+  "lrf": 0.01,
+  "warmup_bias_lr": 0.0,
+  "prior_selection": "detector_v5 winner",
+  "confidence": 0.001,
+  "miss_policy": "Automatic corresponding-fold baseline prediction; no zero threshold.",
+  "selection": "Held-out point-coordinate RMSE of predicted box center, not detection mAP."
+}

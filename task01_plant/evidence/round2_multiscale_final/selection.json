@@ -1,0 +1,153 @@
+{
+  "schema": "round2_multiscale_selection_v1",
+  "development_selection_acknowledgement": "The rule was selected on held-out OOF labels; this is development-set selection, not an untouched final evaluation. No test labels or leaderboard feedback were used.",
+  "strict_oof": true,
+  "oof_prediction_rule": "each sample predicted only by its held-out fold final_weights checkpoint",
+  "predeclared_scales": [
+    256,
+    288,
+    320
+  ],
+  "predeclared_candidates": [
+    {
+      "name": "single_256",
+      "scales": [
+        256
+      ]
+    },
+    {
+      "name": "single_288",
+      "scales": [
+        288
+      ]
+    },
+    {
+      "name": "single_320",
+      "scales": [
+        320
+      ]
+    },
+    {
+      "name": "mean_256_288",
+      "scales": [
+        256,
+        288
+      ]
+    },
+    {
+      "name": "mean_288_320",
+      "scales": [
+        288,
+        320
+      ]
+    },
+    {
+      "name": "mean_256_288_320",
+      "scales": [
+        256,
+        288,
+        320
+      ]
+    }
+  ],
+  "selection_metric": "pooled_accuracy",
+  "tie_break": "fewer scales, then contains 288, then declaration order",
+  "candidates": [
+    {
+      "name": "single_256",
+      "scales": [
+        256
+      ],
+      "declaration_index": 0,
+      "total": 500,
+      "correct": 453,
+      "pooled_accuracy": 0.906,
+      "multiclass_log_loss": 0.26198725896485875,
+      "multiclass_brier_score": 0.14325196898843048,
+      "oof_dir": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round2_multiscale_final\\oof_candidates\\single_256",
+      "evaluation_dir": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round2_multiscale_final\\evaluations\\single_256"
+    },
+    {
+      "name": "single_288",
+      "scales": [
+        288
+      ],
+      "declaration_index": 1,
+      "total": 500,
+      "correct": 450,
+      "pooled_accuracy": 0.9,
+      "multiclass_log_loss": 0.25454244780201324,
+      "multiclass_brier_score": 0.1414545120118623,
+      "oof_dir": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round2_multiscale_final\\oof_candidates\\single_288",
+      "evaluation_dir": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round2_multiscale_final\\evaluations\\single_288"
+    },
+    {
+      "name": "single_320",
+      "scales": [
+        320
+      ],
+      "declaration_index": 2,
+      "total": 500,
+      "correct": 454,
+      "pooled_accuracy": 0.908,
+      "multiclass_log_loss": 0.2614380436289495,
+      "multiclass_brier_score": 0.14363929308126788,
+      "oof_dir": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round2_multiscale_final\\oof_candidates\\single_320",
+      "evaluation_dir": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round2_multiscale_final\\evaluations\\single_320"
+    },
+    {
+      "name": "mean_256_288",
+      "scales": [
+        256,
+        288
+      ],
+      "declaration_index": 3,
+      "total": 500,
+      "correct": 454,
+      "pooled_accuracy": 0.908,
+      "multiclass_log_loss": 0.25479124663194747,
+      "multiclass_brier_score": 0.14051160093081058,
+      "oof_dir": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round2_multiscale_final\\oof_candidates\\mean_256_288",
+      "evaluation_dir": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round2_multiscale_final\\evaluations\\mean_256_288"
+    },
+    {
+      "name": "mean_288_320",
+      "scales": [
+        288,
+        320
+      ],
+      "declaration_index": 4,
+      "total": 500,
+      "correct": 452,
+      "pooled_accuracy": 0.904,
+      "multiclass_log_loss": 0.255035198024135,
+      "multiclass_brier_score": 0.14118803848303854,
+      "oof_dir": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round2_multiscale_final\\oof_candidates\\mean_288_320",
+      "evaluation_dir": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round2_multiscale_final\\evaluations\\mean_288_320"
+    },
+    {
+      "name": "mean_256_288_320",
+      "scales": [
+        256,
+        288,
+        320
+      ],
+      "declaration_index": 5,
+      "total": 500,
+      "correct": 452,
+      "pooled_accuracy": 0.904,
+      "multiclass_log_loss": 0.2521265674954376,
+      "multiclass_brier_score": 0.13939684729713714,
+      "oof_dir": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round2_multiscale_final\\oof_candidates\\mean_256_288_320",
+      "evaluation_dir": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round2_multiscale_final\\evaluations\\mean_256_288_320"
+    }
+  ],
+  "selected": {
+    "name": "single_320",
+    "scales": [
+      320
+    ],
+    "pooled_accuracy": 0.908
+  },
+  "test_labels_or_leaderboard_used": false
+}

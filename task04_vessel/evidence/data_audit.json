@@ -1,0 +1,449 @@
+{
+  "archive_sha256": "6f6e36243092f4cf55c1be4ae7c5227e3c3686501e25487ada7ef03fa9b7634a",
+  "label_vessel_value": 255,
+  "label_threshold": 128,
+  "items": [
+    {
+      "split": "train",
+      "id": "1",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "4e741535cce29ed5c28ff1f3e51316c3efc471dcbc1ab794a71c0852bdc04e8f",
+      "label_actual_format": "GIF",
+      "label_unique": [
+        0,
+        255
+      ],
+      "vessel_fraction": 0.08740756455327918
+    },
+    {
+      "split": "train",
+      "id": "2",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "97b0b7962cbdb6c05c8dc090ef1fe11f4bcc7dda024471ea7521871d97454dfe",
+      "label_actual_format": "GIF",
+      "label_unique": [
+        0,
+        255
+      ],
+      "vessel_fraction": 0.08356467450600073
+    },
+    {
+      "split": "train",
+      "id": "3",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "359626ded5d58eb8c6aa0d71f280e4c90a66189d9d10d8d871d5f3caf7f21929",
+      "label_actual_format": "GIF",
+      "label_unique": [
+        0,
+        255
+      ],
+      "vessel_fraction": 0.10875257606982665
+    },
+    {
+      "split": "train",
+      "id": "4",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "cfaf945b07dc28dc3efe972e0ac353a04053db86f4e8e02ba95b0e1859e8acdb",
+      "label_actual_format": "GIF",
+      "label_unique": [
+        0,
+        255
+      ],
+      "vessel_fraction": 0.07576979027760941
+    },
+    {
+      "split": "train",
+      "id": "5",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "4d20167c45d4e495bf1aac435c7f611a991fafdbcba8f39f5b2e667f3809c64b",
+      "label_actual_format": "GIF",
+      "label_unique": [
+        0,
+        255
+      ],
+      "vessel_fraction": 0.06583525275791005
+    },
+    {
+      "split": "train",
+      "id": "6",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "081db8928e07c9a222b05596f54f60770f37c1cdb39308377b420dc58a49c361",
+      "label_actual_format": "GIF",
+      "label_unique": [
+        0,
+        255
+      ],
+      "vessel_fraction": 0.11585949812098437
+    },
+    {
+      "split": "train",
+      "id": "7",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "89a2606a6b1f226c53304e7c4148463378e7c8c94631418058812f072a00e7c6",
+      "label_actual_format": "GIF",
+      "label_unique": [
+        0,
+        255
+      ],
+      "vessel_fraction": 0.060304279306582616
+    },
+    {
+      "split": "train",
+      "id": "8",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "713d1764d784ac3351a0ceb18051163991d0b222be875430e7ba54b05b333ac0",
+      "label_actual_format": "GIF",
+      "label_unique": [
+        0,
+        255
+      ],
+      "vessel_fraction": 0.0784458722269366
+    },
+    {
+      "split": "train",
+      "id": "9",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "93d377c99a50dd6c0b08c6ff55b4d32bc43cba2b7d65a286bfd0747c4a189a87",
+      "label_actual_format": "GIF",
+      "label_unique": [
+        0,
+        255
+      ],
+      "vessel_fraction": 0.08087646987513639
+    },
+    {
+      "split": "train",
+      "id": "10",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "915f74c3b2512ac842339a82be1e5d26d05ce3f9ee591c849606c9fe3dde4dca",
+      "label_actual_format": "GIF",
+      "label_unique": [
+        0,
+        255
+      ],
+      "vessel_fraction": 0.0817796096496545
+    },
+    {
+      "split": "train",
+      "id": "11",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "e7af55375ba088ac63db120377eaf94b2405fe80b7874d6e1d236cda4f8c4c83",
+      "label_actual_format": "GIF",
+      "label_unique": [
+        0,
+        255
+      ],
+      "vessel_fraction": 0.07473027033579828
+    },
+    {
+      "split": "train",
+      "id": "12",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "9c7bd663458a7a8e289c414f624ebc9c8eff672a703a394968fd0e7853eaaafa",
+      "label_actual_format": "GIF",
+      "label_unique": [
+        0,
+        255
+      ],
+      "vessel_fraction": 0.0978512546975391
+    },
+    {
+      "split": "train",
+      "id": "13",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "4ebfe2e985b9459b2ea9fd46d61e608c53a0044217f99126ea0a5706accce9e1",
+      "label_actual_format": "GIF",
+      "label_unique": [
+        0,
+        255
+      ],
+      "vessel_fraction": 0.08811068008243424
+    },
+    {
+      "split": "train",
+      "id": "14",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "de7affead453633b961a8e2525a3a5f22c4d432413ece9480fa3301dffeb9675",
+      "label_actual_format": "GIF",
+      "label_unique": [
+        0,
+        255
+      ],
+      "vessel_fraction": 0.08671354103527701
+    },
+    {
+      "split": "train",
+      "id": "15",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "bfbfe78a1015abd460f6d423a3d69d0cd41c38983502f5c6557202e4ff5e06a3",
+      "label_actual_format": "GIF",
+      "label_unique": [
+        0,
+        255
+      ],
+      "vessel_fraction": 0.08630440053339798
+    },
+    {
+      "split": "train",
+      "id": "16",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "b0dc412fbbe208c47134208f617ec0b630cb6adba794e384fa1b7f9b8217cbc3",
+      "label_actual_format": "GIF",
+      "label_unique": [
+        0,
+        255
+      ],
+      "vessel_fraction": 0.08410413383440417
+    },
+    {
+      "split": "train",
+      "id": "17",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "4fc9bd6642ab205174d4609c10836b2831f3f8aefa5febac1f136273ae4eebd6",
+      "label_actual_format": "GIF",
+      "label_unique": [
+        0,
+        255
+      ],
+      "vessel_fraction": 0.09034125348527094
+    },
+    {
+      "split": "train",
+      "id": "18",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "5b6a396282615674d0dee65c504ec1ea860a71e127802c743ef3bda9705f9296",
+      "label_actual_format": "GIF",
+      "label_unique": [
+        0,
+        255
+      ],
+      "vessel_fraction": 0.0859134440538247
+    },
+    {
+      "split": "train",
+      "id": "19",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "544904428f4286cfde44f2f24171c59f1fbc86c00833a4862f31f7eba3c71841",
+      "label_actual_format": "GIF",
+      "label_unique": [
+        0,
+        255
+      ],
+      "vessel_fraction": 0.0959783004000485
+    },
+    {
+      "split": "train",
+      "id": "20",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "3ce704a1bc9d1cd82d27817db9ef5e30f030986bb209612139b998792860fbeb",
+      "label_actual_format": "GIF",
+      "label_unique": [
+        0,
+        255
+      ],
+      "vessel_fraction": 0.09767244514486605
+    },
+    {
+      "split": "test",
+      "id": "1",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "3088358d3e99d02972b31f04bc0e6d7877fcd68be6c916a5afcc698fa4ae80f0"
+    },
+    {
+      "split": "test",
+      "id": "2",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "7826c700271fd9372227544a8abe7f5c0d066c1154d5ae356f3cc703c693b0f5"
+    },
+    {
+      "split": "test",
+      "id": "3",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "682375268515fed1427adf10332ea3e478f461b107b69a82527fbc3fc659a092"
+    },
+    {
+      "split": "test",
+      "id": "4",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "e253a06fdc843fed0cdb8746fb19c1535e70f7b5e9199d4a266fb2b05873a9c0"
+    },
+    {
+      "split": "test",
+      "id": "5",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "d58e5d17769c9136d9cef636501c61457077c6985b5da5c0b1e7b870e93a20a2"
+    },
+    {
+      "split": "test",
+      "id": "6",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "69383048477e8b73d8592c6ddac8049f5699d4f58df4cbbc1b83b7f2e9fb43de"
+    },
+    {
+      "split": "test",
+      "id": "7",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "5e66d4d531e44f975eb3cf24beef7caee304b7fced4feb1a6ad85f5d54357602"
+    },
+    {
+      "split": "test",
+      "id": "8",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "8d6ed7db628b107e0169251dd4c9a36ecb70048d47f3839df21443a0e1760fbd"
+    },
+    {
+      "split": "test",
+      "id": "9",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "4819536826a478a61c22712166949793fc81bd933e2ca99257703b2ee17217bf"
+    },
+    {
+      "split": "test",
+      "id": "10",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "23c83d21897ffe17dd6052720d086828a659df0182f0a78758bae648a75fd236"
+    },
+    {
+      "split": "test",
+      "id": "11",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "9b76ccad79a46af00155f826b6a7a221cebeccb780b862189ba394f0975ed458"
+    },
+    {
+      "split": "test",
+      "id": "12",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "cdac465418976e997fcfe92952a27efb3d11dfed41f19edea3b10bf3441f19e5"
+    },
+    {
+      "split": "test",
+      "id": "13",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "9173dc39ffc62069aa33f91c66ed847cec645d2f108a363e233c25f9c65944a7"
+    },
+    {
+      "split": "test",
+      "id": "14",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "b081bd205d64f43be5405e490b056ffe3a4c85b6ea72ba055a90a30dfd43bfd2"
+    },
+    {
+      "split": "test",
+      "id": "15",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "de6b4dc1f72dfdcda32334060b490b2b448f940c654327fcaa6dc98f7c527302"
+    },
+    {
+      "split": "test",
+      "id": "16",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "ba282abe4bd58172e2c06f775cdc8bbf083e32c268e31f7c8ef9018c8f25f196"
+    },
+    {
+      "split": "test",
+      "id": "17",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "53a27860866049c3c1b0ce94c161cca7a2b90c9c5235aa1b0ebd5f46506a4423"
+    },
+    {
+      "split": "test",
+      "id": "18",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "2e5b21bd6899f9076edefa322f4d73cf30a20cffc2dd5c9e87e672b8b29e178c"
+    },
+    {
+      "split": "test",
+      "id": "19",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "7ed2e06a84e5a311820be03fdd70f52586960026d80f15d24fe36c5fe98cc406"
+    },
+    {
+      "split": "test",
+      "id": "20",
+      "width": 565,
+      "height": 584,
+      "actual_format": "TIFF",
+      "sha256": "c12254bcdea5fa9dab6e3f1cbf876ed2b94adb6955c81ae75dce92d70ee4725c"
+    }
+  ],
+  "exact_train_test_duplicates": [],
+  "note": "All labels inspected: white=vascular foreground; prompt requests opposite polarity. Official script encodes nonzero after bilinear resize to 512x512, C order, 1-based."
+}

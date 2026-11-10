@@ -1,0 +1,35 @@
+{
+  "folds": [
+    {
+      "fold": 0,
+      "frozen_tensors_checked": 447,
+      "backbone_detection_head_and_bn_stats_unchanged": true,
+      "averaged_sha256": "feb083063251f7729755fdad7d91d22b727fee07cfdbb9aa08e40f430271e84c"
+    },
+    {
+      "fold": 1,
+      "frozen_tensors_checked": 447,
+      "backbone_detection_head_and_bn_stats_unchanged": true,
+      "averaged_sha256": "c39a63fcbb83e42ae0dad7525cfd411c6bb1e0aa7a1474b256ab48b11a301f9f"
+    },
+    {
+      "fold": 2,
+      "frozen_tensors_checked": 447,
+      "backbone_detection_head_and_bn_stats_unchanged": true,
+      "averaged_sha256": "560768c47c02c20faaac399afb88c35271eaa43316379b2797f6ddc00c19c5d5"
+    },
+    {
+      "fold": 3,
+      "frozen_tensors_checked": 447,
+      "backbone_detection_head_and_bn_stats_unchanged": true,
+      "averaged_sha256": "00a3faf55af2e24a06118cf4deab67d6c5cbe062f2e0bf86758199b65b6dcb6e"
+    },
+    {
+      "fold": 4,
+      "frozen_tensors_checked": 447,
+      "backbone_detection_head_and_bn_stats_unchanged": true,
+      "averaged_sha256": "a0b7f25cb45eee78df1e142146e5c05aac5deef24f1c39b3c1508d477fbd3e8f"
+    }
+  ],
+  "all_frozen_tensors_exact": true
+}

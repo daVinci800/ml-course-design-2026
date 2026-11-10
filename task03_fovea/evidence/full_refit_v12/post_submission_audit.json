@@ -1,0 +1,47 @@
+{
+  "public_feedback": {
+    "attempt": 1,
+    "file": "submission_full_refit_v12_20261027.csv",
+    "sha256": "707ad55aed0110458a3cf4dc1ea498e7eca7698ffc278eff8d9868ed50ffeac8",
+    "public_rmse_approximate": 17,
+    "exact_score_known": false,
+    "source": "User reported score became17; exact decimals not supplied",
+    "status": "submitted_scored_worse",
+    "recorded_at": "2026-10-27T13:50:34.523045+08:00"
+  },
+  "baseline_unchanged": true,
+  "old_best_epochs": [
+    {
+      "fold": 0,
+      "best_epoch": 60,
+      "rmse": 9.060159552241542
+    },
+    {
+      "fold": 1,
+      "best_epoch": 140,
+      "rmse": 16.89363581526011
+    },
+    {
+      "fold": 2,
+      "best_epoch": 40,
+      "rmse": 28.022087580695125
+    },
+    {
+      "fold": 3,
+      "best_epoch": 45,
+      "rmse": 11.713389389259731
+    },
+    {
+      "fold": 4,
+      "best_epoch": 20,
+      "rmse": 9.19518290109615
+    }
+  ],
+  "new_vs_old_coordinate_shift_rmse": 4.719322973744379,
+  "new_vs_old_euclidean_shift_median": 1.413671408811899,
+  "new_vs_old_euclidean_shift_max": 28.297991439235535,
+  "seed_disagreement_euclidean_median": 1.780459675547654,
+  "seed_disagreement_euclidean_max": 12.260679669855696,
+  "conclusion": "All-data refit had no independent validation and changed training-set size, seed, and checkpoint policy together. Aggregate leaderboard feedback does not identify causal factor or test-image errors. Do not infer ground truth or tune per-image coordinates from score.",
+  "next_action": "Retain baseline14.39947; no automatic new submission, no blind additional training. Three submission attempts remain."
+}

@@ -1,0 +1,47 @@
+{
+  "manifest": {
+    "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\data\\folds_v2.csv",
+    "sha256": "f1fd9e212b7332974b009f155f43bd9c0ebb76251b5fa6aaf30b389bb54ae129"
+  },
+  "oof_inputs": [
+    {
+      "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round2_multiscale_final\\oof_candidates\\single_256\\fold_0.csv",
+      "sha256": "f882727faf9d5b557cba3585be259dddb61b38789b311e03430e5780176e8a98"
+    },
+    {
+      "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round2_multiscale_final\\oof_candidates\\single_256\\fold_1.csv",
+      "sha256": "08b093534396b2a12bebd2ed682718cecdded8647e69f3ab4a4f2c0760de6a20"
+    },
+    {
+      "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round2_multiscale_final\\oof_candidates\\single_256\\fold_2.csv",
+      "sha256": "cca57218c52a43a8a2517a828a9f8a561af5e8d9840ae85dcb3159bd437da0ff"
+    },
+    {
+      "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round2_multiscale_final\\oof_candidates\\single_256\\fold_3.csv",
+      "sha256": "ff6a0e4a79a32c1acfc233fdc43eb314976a2e17c568aef8796c75b341a665ee"
+    },
+    {
+      "path": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\round2_multiscale_final\\oof_candidates\\single_256\\fold_4.csv",
+      "sha256": "c4d4342480e32bfac313599cb311356bc1117cb606f7001fe11b53d971f961cd"
+    }
+  ],
+  "class_order": [
+    "Black-grass",
+    "Common wheat",
+    "Loose Silky-bent",
+    "Scentless Mayweed",
+    "Sugar beet"
+  ],
+  "probability_column_order": [
+    "prob::Black-grass",
+    "prob::Common%20wheat",
+    "prob::Loose%20Silky-bent",
+    "prob::Scentless%20Mayweed",
+    "prob::Sugar%20beet"
+  ],
+  "sample_id_precedence": [
+    "sample_id",
+    "sha256",
+    "image_path"
+  ]
+}

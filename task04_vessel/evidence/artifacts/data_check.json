@@ -1,0 +1,288 @@
+{
+  "train": [
+    {
+      "id": "1",
+      "size": [
+        565,
+        584
+      ],
+      "image_actual_format": "TIFF",
+      "label_actual_format": "GIF",
+      "vessel_fraction": 0.08740756455327918,
+      "label_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "2",
+      "size": [
+        565,
+        584
+      ],
+      "image_actual_format": "TIFF",
+      "label_actual_format": "GIF",
+      "vessel_fraction": 0.08356467450600073,
+      "label_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "3",
+      "size": [
+        565,
+        584
+      ],
+      "image_actual_format": "TIFF",
+      "label_actual_format": "GIF",
+      "vessel_fraction": 0.10875257606982665,
+      "label_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "4",
+      "size": [
+        565,
+        584
+      ],
+      "image_actual_format": "TIFF",
+      "label_actual_format": "GIF",
+      "vessel_fraction": 0.07576979027760941,
+      "label_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "5",
+      "size": [
+        565,
+        584
+      ],
+      "image_actual_format": "TIFF",
+      "label_actual_format": "GIF",
+      "vessel_fraction": 0.06583525275791005,
+      "label_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "6",
+      "size": [
+        565,
+        584
+      ],
+      "image_actual_format": "TIFF",
+      "label_actual_format": "GIF",
+      "vessel_fraction": 0.11585949812098437,
+      "label_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "7",
+      "size": [
+        565,
+        584
+      ],
+      "image_actual_format": "TIFF",
+      "label_actual_format": "GIF",
+      "vessel_fraction": 0.060304279306582616,
+      "label_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "8",
+      "size": [
+        565,
+        584
+      ],
+      "image_actual_format": "TIFF",
+      "label_actual_format": "GIF",
+      "vessel_fraction": 0.0784458722269366,
+      "label_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "9",
+      "size": [
+        565,
+        584
+      ],
+      "image_actual_format": "TIFF",
+      "label_actual_format": "GIF",
+      "vessel_fraction": 0.08087646987513639,
+      "label_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "10",
+      "size": [
+        565,
+        584
+      ],
+      "image_actual_format": "TIFF",
+      "label_actual_format": "GIF",
+      "vessel_fraction": 0.0817796096496545,
+      "label_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "11",
+      "size": [
+        565,
+        584
+      ],
+      "image_actual_format": "TIFF",
+      "label_actual_format": "GIF",
+      "vessel_fraction": 0.07473027033579828,
+      "label_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "12",
+      "size": [
+        565,
+        584
+      ],
+      "image_actual_format": "TIFF",
+      "label_actual_format": "GIF",
+      "vessel_fraction": 0.0978512546975391,
+      "label_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "13",
+      "size": [
+        565,
+        584
+      ],
+      "image_actual_format": "TIFF",
+      "label_actual_format": "GIF",
+      "vessel_fraction": 0.08811068008243424,
+      "label_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "14",
+      "size": [
+        565,
+        584
+      ],
+      "image_actual_format": "TIFF",
+      "label_actual_format": "GIF",
+      "vessel_fraction": 0.08671354103527701,
+      "label_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "15",
+      "size": [
+        565,
+        584
+      ],
+      "image_actual_format": "TIFF",
+      "label_actual_format": "GIF",
+      "vessel_fraction": 0.08630440053339798,
+      "label_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "16",
+      "size": [
+        565,
+        584
+      ],
+      "image_actual_format": "TIFF",
+      "label_actual_format": "GIF",
+      "vessel_fraction": 0.08410413383440417,
+      "label_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "17",
+      "size": [
+        565,
+        584
+      ],
+      "image_actual_format": "TIFF",
+      "label_actual_format": "GIF",
+      "vessel_fraction": 0.09034125348527094,
+      "label_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "18",
+      "size": [
+        565,
+        584
+      ],
+      "image_actual_format": "TIFF",
+      "label_actual_format": "GIF",
+      "vessel_fraction": 0.0859134440538247,
+      "label_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "19",
+      "size": [
+        565,
+        584
+      ],
+      "image_actual_format": "TIFF",
+      "label_actual_format": "GIF",
+      "vessel_fraction": 0.0959783004000485,
+      "label_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "20",
+      "size": [
+        565,
+        584
+      ],
+      "image_actual_format": "TIFF",
+      "label_actual_format": "GIF",
+      "vessel_fraction": 0.09767244514486605,
+      "label_values": [
+        0,
+        255
+      ]
+    }
+  ],
+  "test_images": 20,
+  "training_started": false,
+  "labels": "white=vascular foreground",
+  "prompt_conflict": true
+}

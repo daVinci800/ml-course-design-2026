@@ -1,0 +1,10 @@
+{
+  "fold": 0,
+  "final_ema": {
+    "loss": 1.2284375,
+    "accuracy": 0.66,
+    "macro_f1": 0.6384193710569421
+  },
+  "best_diagnostic_accuracy": 0.69,
+  "oof": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\resnet50_seed2026\\oof\\fold_0.csv"
+}

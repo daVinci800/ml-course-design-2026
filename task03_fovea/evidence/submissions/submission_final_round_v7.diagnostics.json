@@ -1,0 +1,291 @@
+{
+  "predictions": {
+    "81": {
+      "xy": [
+        1711.0999871190172,
+        1149.3652801188582
+      ]
+    },
+    "82": {
+      "xy": [
+        1688.6215099836577,
+        1103.802538767274
+      ]
+    },
+    "83": {
+      "xy": [
+        1489.6548069734788,
+        1043.9060852630605
+      ]
+    },
+    "84": {
+      "xy": [
+        1234.5491082941453,
+        1117.4900467004381
+      ]
+    },
+    "85": {
+      "xy": [
+        1201.2058248811386,
+        979.7162957297339
+      ]
+    },
+    "86": {
+      "xy": [
+        1252.597799044212,
+        1130.9565802014936
+      ]
+    },
+    "87": {
+      "xy": [
+        1470.7613576555705,
+        1021.5546332359061
+      ]
+    },
+    "88": {
+      "xy": [
+        1250.5959783634069,
+        1121.0025782144853
+      ]
+    },
+    "89": {
+      "xy": [
+        1478.0357618083488,
+        1049.8955871824558
+      ]
+    },
+    "90": {
+      "xy": [
+        1668.4994081155055,
+        1094.0833320610882
+      ]
+    },
+    "91": {
+      "xy": [
+        1472.688285773069,
+        1043.3666054358505
+      ]
+    },
+    "92": {
+      "xy": [
+        1698.863174384526,
+        1100.695712395216
+      ]
+    },
+    "93": {
+      "xy": [
+        1697.0938235367407,
+        1162.49446522984
+      ]
+    },
+    "94": {
+      "xy": [
+        1447.004181366976,
+        1025.6584721015965
+      ]
+    },
+    "95": {
+      "xy": [
+        1670.968712385802,
+        1102.7637412555941
+      ]
+    },
+    "96": {
+      "xy": [
+        1699.5538896033388,
+        1075.5325812609894
+      ]
+    },
+    "97": {
+      "xy": [
+        1499.5679761796218,
+        1208.1527332499904
+      ]
+    },
+    "98": {
+      "xy": [
+        1475.5666847747782,
+        1068.8267034167502
+      ]
+    },
+    "99": {
+      "xy": [
+        1461.2757230256166,
+        1032.511375724291
+      ]
+    },
+    "100": {
+      "xy": [
+        1686.4652909214735,
+        1094.9390436676442
+      ]
+    }
+  },
+  "selected": "resnet10_previous0.25_roi+full_highres",
+  "weights": {
+    "previous": 0.225,
+    "roi": 0.3375,
+    "full_highres": 0.3375,
+    "resnet_v4": 0.1
+  },
+  "manifest_hash": "a96bcfd054679cfd7dbe59a87899a933493f9b7b92a7eda1b27bb5e25ac5ddd9",
+  "oof_rmse": 15.264404106938137,
+  "checkpoints": [
+    {
+      "variant": "resnet_v4",
+      "fold": 0,
+      "role": "coarse",
+      "sha256": "dca4078536be0624f25efcc7cafbe5b00628698e010bbf9370aa0bed2e384d9e"
+    },
+    {
+      "variant": "resnet_v4",
+      "fold": 0,
+      "role": "fine",
+      "sha256": "53b75220d993e3f9b0e7f7858f2f4118b7f7faad13edbff03ad335084a0f4b9a"
+    },
+    {
+      "variant": "resnet_v4",
+      "fold": 1,
+      "role": "coarse",
+      "sha256": "9fcbd8c567dd84569dda65a1bc01bb10b27ef9845c6b5b582ade264f73193efc"
+    },
+    {
+      "variant": "resnet_v4",
+      "fold": 1,
+      "role": "fine",
+      "sha256": "4c11dcfdbaac9d62c434db221f3839c11667ad17b0f74de17a086e07969e2c71"
+    },
+    {
+      "variant": "resnet_v4",
+      "fold": 2,
+      "role": "coarse",
+      "sha256": "e6173bf7fdcf088e80e299f9d53e39a1e72a8f16335da9b96fe98e987aacf908"
+    },
+    {
+      "variant": "resnet_v4",
+      "fold": 2,
+      "role": "fine",
+      "sha256": "23a7953648a950eda1bd22df9caa0ed5c17898a4283badb31dcb1e8265409260"
+    },
+    {
+      "variant": "resnet_v4",
+      "fold": 3,
+      "role": "coarse",
+      "sha256": "635b4836639d189976e6c5af9411eb0cdeee0787cb408753a2f2041076af66c9"
+    },
+    {
+      "variant": "resnet_v4",
+      "fold": 3,
+      "role": "fine",
+      "sha256": "a6ad141a2d278620114deea855995db2f76ea5119951faa95a340fd2bef072a7"
+    },
+    {
+      "variant": "resnet_v4",
+      "fold": 4,
+      "role": "coarse",
+      "sha256": "036ecdbed71c9047d45f4b24371fea994e1dc7c1289af07468f5ca65828c2235"
+    },
+    {
+      "variant": "resnet_v4",
+      "fold": 4,
+      "role": "fine",
+      "sha256": "2ecc058ccea214edee42989d7129a701f4c77aaad9bb16b93f28cc00a3e55686"
+    },
+    {
+      "variant": "detector_v6",
+      "fold": 0,
+      "role": "roi_center",
+      "epoch": 60,
+      "sha256": "363469444a28ba465520f04843f6adcdc32962f38c99498deddc85c816a1f7ab"
+    },
+    {
+      "variant": "roi",
+      "fold": 0,
+      "epoch": 70,
+      "sha256": "126311b8f4cf6e0547e622c80bbd77bf894cfaa5a8cd52707a3814a21f055538"
+    },
+    {
+      "variant": "detector_v6",
+      "fold": 1,
+      "role": "roi_center",
+      "epoch": 140,
+      "sha256": "b65ce7e688b3402b2eb23ad62df03d16a47b853c4ef1e049efd88dde87f1be41"
+    },
+    {
+      "variant": "roi",
+      "fold": 1,
+      "epoch": 55,
+      "sha256": "e9d3162aea5317d82283394775429db2d543b631ab5ffe6843832109362ed007"
+    },
+    {
+      "variant": "detector_v6",
+      "fold": 2,
+      "role": "roi_center",
+      "epoch": 40,
+      "sha256": "65cf222168055e4d27ce3d446e0e34f27906f6b0400fe2bed1c27b6b7af170ff"
+    },
+    {
+      "variant": "roi",
+      "fold": 2,
+      "epoch": 90,
+      "sha256": "de75fdd0f0511ac858556630cca221f0c7a8d8e07b44fea576c364d7d622447a"
+    },
+    {
+      "variant": "detector_v6",
+      "fold": 3,
+      "role": "roi_center",
+      "epoch": 45,
+      "sha256": "13bf5381e6a082daf38f2496e9870f1d1ca7c4046a159e88a54d1966b39e2e4a"
+    },
+    {
+      "variant": "roi",
+      "fold": 3,
+      "epoch": 80,
+      "sha256": "146305af773005d5f76bfdb8cc92f7a9ee60554e8f1119be01b62bf62ad5271a"
+    },
+    {
+      "variant": "detector_v6",
+      "fold": 4,
+      "role": "roi_center",
+      "epoch": 20,
+      "sha256": "aeca1161a6f5d44d324d5421a76f20f6623b7d5521abace5a02a821b824f4bb5"
+    },
+    {
+      "variant": "roi",
+      "fold": 4,
+      "epoch": 90,
+      "sha256": "5375ba56c8698f80dbfb49855692c5402a5f1bd3d1cbe591405cd5c7ded210a5"
+    },
+    {
+      "variant": "full_highres",
+      "fold": 0,
+      "epoch": 75,
+      "sha256": "05b0f5b329e306087ab4ee0e6da2551afe771299e64a069421d90d006745081e"
+    },
+    {
+      "variant": "full_highres",
+      "fold": 1,
+      "epoch": 35,
+      "sha256": "13a8a0649052092c3ad954c0dd28226f49eac1af7996747f61960abf02e5ac00"
+    },
+    {
+      "variant": "full_highres",
+      "fold": 2,
+      "epoch": 125,
+      "sha256": "2ee97ce6982968f1b5dc06bfee40855fcf57de209006e8816722ba3a0f76744e"
+    },
+    {
+      "variant": "full_highres",
+      "fold": 3,
+      "epoch": 25,
+      "sha256": "765b37cfff515826fb91cc1c5e8f058c8edfec34e1c1907af989b90c2be49586"
+    },
+    {
+      "variant": "full_highres",
+      "fold": 4,
+      "epoch": 30,
+      "sha256": "82781a7f3d73e48965f20fba911c42491cc397041db7089991dcb8d58e69d239"
+    }
+  ],
+  "visibility_policy": "All visible, consistent with all 80 supplied labels; no validated negative detector."
+}

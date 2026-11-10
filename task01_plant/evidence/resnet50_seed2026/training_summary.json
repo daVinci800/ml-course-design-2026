@@ -1,0 +1,62 @@
+{
+  "manifest_hash": "f1fd9e212b7332974b009f155f43bd9c0ebb76251b5fa6aaf30b389bb54ae129",
+  "class_to_idx": {
+    "Black-grass": 0,
+    "Common wheat": 1,
+    "Loose Silky-bent": 2,
+    "Scentless Mayweed": 3,
+    "Sugar beet": 4
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "final_ema": {
+        "loss": 1.2284375,
+        "accuracy": 0.66,
+        "macro_f1": 0.6384193710569421
+      },
+      "best_diagnostic_accuracy": 0.69,
+      "oof": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\resnet50_seed2026\\oof\\fold_0.csv"
+    },
+    {
+      "fold": 1,
+      "final_ema": {
+        "loss": 1.2203515625,
+        "accuracy": 0.67,
+        "macro_f1": 0.6678266486911583
+      },
+      "best_diagnostic_accuracy": 0.67,
+      "oof": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\resnet50_seed2026\\oof\\fold_1.csv"
+    },
+    {
+      "fold": 2,
+      "final_ema": {
+        "loss": 1.2447265625,
+        "accuracy": 0.63,
+        "macro_f1": 0.6256372232967978
+      },
+      "best_diagnostic_accuracy": 0.64,
+      "oof": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\resnet50_seed2026\\oof\\fold_2.csv"
+    },
+    {
+      "fold": 3,
+      "final_ema": {
+        "loss": 1.23234375,
+        "accuracy": 0.7,
+        "macro_f1": 0.6896348618087749
+      },
+      "best_diagnostic_accuracy": 0.71,
+      "oof": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\resnet50_seed2026\\oof\\fold_3.csv"
+    },
+    {
+      "fold": 4,
+      "final_ema": {
+        "loss": 1.2591796875,
+        "accuracy": 0.57,
+        "macro_f1": 0.5617438886575864
+      },
+      "best_diagnostic_accuracy": 0.59,
+      "oof": "C:\\Users\\Lenovo\\PycharmProjects\\plant_classifier\\runs\\resnet50_seed2026\\oof\\fold_4.csv"
+    }
+  ]
+}

@@ -1,0 +1,2570 @@
+{
+  "version": 1,
+  "root": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection",
+  "seed": 20261020,
+  "n_folds": 5,
+  "template": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\sample_submission.csv",
+  "template_sha256": "28c8af24effbb1fefe9cd7162b4093b2966b24c9d5e5e2140ecb368822409d9d",
+  "records": [
+    {
+      "id": 1,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0001.jpg",
+      "width": 1956,
+      "height": 1934,
+      "sha256": "0fd298705564017c414699c09e010bf66a155b8a440d6e87636602fd62f5308d",
+      "decoded_sha256": "0bf5ca4e28d77564f73eadd06d420569659084da29e5ba22a6f91dcc14f5d9ed",
+      "fov_center": [
+        977.5,
+        962.72265625
+      ],
+      "fov_side": 1921.988046875,
+      "fold": 3,
+      "box": [
+        631.0,
+        903.0,
+        839.0,
+        1121.0
+      ],
+      "xy": [
+        734.031331,
+        1016.817066
+      ],
+      "visible": true,
+      "group": "1",
+      "stratum": "1956x1934_1"
+    },
+    {
+      "id": 2,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0002.jpg",
+      "width": 1956,
+      "height": 1934,
+      "sha256": "130b083ce36a132bfc7cece86d7e97a99f2e5fa4f49db057707c93d765a4400b",
+      "decoded_sha256": "869a1631a304f93dfe297945529b59ee90dad3df592d58cda003ecbaac62cb54",
+      "fov_center": [
+        977.5,
+        962.72265625
+      ],
+      "fov_side": 1921.988046875,
+      "fold": 4,
+      "box": [
+        653.0,
+        901.0,
+        883.0,
+        1131.0
+      ],
+      "xy": [
+        769.024859,
+        1018.059762
+      ],
+      "visible": true,
+      "group": "2",
+      "stratum": "1956x1934_1"
+    },
+    {
+      "id": 3,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0003.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "52bb94420d031497f8ae36690e0d544a405297d6ef57272d8f81a70e56d70f91",
+      "decoded_sha256": "cbb1e09da97c463ff62373b0f331426ab6143cad4da9a6a60d586fe4f65b2298",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 4,
+      "box": [
+        1368.0,
+        939.0,
+        1570.0,
+        1137.0
+      ],
+      "xy": [
+        1470.287475,
+        1037.601074
+      ],
+      "visible": true,
+      "group": "3",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 4,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0004.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "c6ddc2f05f8706447c8c3bd157d91d9dd68f1b18f8741cd38d3cd88200330b67",
+      "decoded_sha256": "845f88ec92d53dee50e993c9b0bcc36ba2890026e976cf92b58e5ed58af2f606",
+      "fov_center": [
+        1513.03125,
+        968.25
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 4,
+      "box": [
+        1560.0,
+        1006.0,
+        1757.0,
+        1202.0
+      ],
+      "xy": [
+        1658.316671,
+        1104.020062
+      ],
+      "visible": true,
+      "group": "4",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 5,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0005.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "78c1b95f5ba7bdb68a53150b1a9f33c09d617013bea0a8e73ebd9aadd7b4b336",
+      "decoded_sha256": "af5e9115eed3d779665ae0e75f772f9ea823f5d638dd4eb3fc9261c6ab2aaae2",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 2,
+      "box": [
+        1637.0,
+        1016.0,
+        1826.0,
+        1202.0
+      ],
+      "xy": [
+        1729.828431,
+        1107.209978
+      ],
+      "visible": true,
+      "group": "5",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 6,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0006.jpg",
+      "width": 1956,
+      "height": 1934,
+      "sha256": "1701152f9e7adbbceb5320168ab766bbed0a6d5d59992f90c30af76f0b94b332",
+      "decoded_sha256": "455d6f5ab9389593e9ef703e93ee9653f422c6952b85b399afab412de8dcb484",
+      "fov_center": [
+        977.5,
+        966.5
+      ],
+      "fov_side": 1920.241875,
+      "fold": 2,
+      "box": [
+        655.0,
+        951.0,
+        795.0,
+        1095.0
+      ],
+      "xy": [
+        723.703975,
+        1021.784417
+      ],
+      "visible": true,
+      "group": "6",
+      "stratum": "1956x1934_1"
+    },
+    {
+      "id": 7,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0007.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "d0b8c5e7e7cca81386e8974a6d785f4e3738726147cce1ee6df16c0b41b68ade",
+      "decoded_sha256": "633c8b4a4970972ce3948c774a554438485bff59f4ac2f89ae1c320088c57eb0",
+      "fov_center": [
+        1513.03125,
+        968.25
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 2,
+      "box": [
+        1193.0,
+        966.0,
+        1401.0,
+        1174.0
+      ],
+      "xy": [
+        1292.855429,
+        1069.345693
+      ],
+      "visible": true,
+      "group": "7",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 8,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0008.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "cfba0532bf713a75204111eb39433522118cbe0f9bd1cabe7a74df7707ddafe8",
+      "decoded_sha256": "24e4a866f85815a340502f3ffe60b2bdc3aca1b07c91f09b71f5c99ec90e7551",
+      "fov_center": [
+        1489.65625,
+        987.78125
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 0,
+      "box": [
+        1555.0,
+        968.0,
+        1768.0,
+        1174.0
+      ],
+      "xy": [
+        1662.866345,
+        1071.871866
+      ],
+      "visible": true,
+      "group": "8",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 9,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0009.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "01639a9fd84a85dd8538a9d1e936839751bd5a73c20a3bae6c6b8b729dc46494",
+      "decoded_sha256": "6d3fd2f1ab3629f5609d56700fe467b232c0795ef4d750095edf1c2ffbd3d753",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 4,
+      "box": [
+        1347.0,
+        949.0,
+        1537.0,
+        1145.0
+      ],
+      "xy": [
+        1439.915991,
+        1045.119337
+      ],
+      "visible": true,
+      "group": "9",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 10,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0010.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "35e84b42dbd57af3e6e5bed181dd2f864c77522730f8aae07cf239778a1459b6",
+      "decoded_sha256": "3485e48ec772cae34b685286079fcc94e276aec34d641e8ba26459b1a138f885",
+      "fov_center": [
+        1495.5,
+        991.6875
+      ],
+      "fov_side": 1998.3287500000001,
+      "fold": 1,
+      "box": [
+        1424.0,
+        1006.0,
+        1628.0,
+        1208.0
+      ],
+      "xy": [
+        1524.292057,
+        1103.393517
+      ],
+      "visible": true,
+      "group": "10",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 11,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0011.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "a17a13693fe1b5b7d3ad4c8f7e8fa74db3816833b6a636fadcff113e9eeec77e",
+      "decoded_sha256": "2e4464f0c7823bb75dab9d00dcc17a87fc0d17ef68ebe913ad8626cf049599e5",
+      "fov_center": [
+        1489.65625,
+        987.78125
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 2,
+      "box": [
+        1570.0,
+        995.0,
+        1762.0,
+        1185.0
+      ],
+      "xy": [
+        1666.589135,
+        1089.033802
+      ],
+      "visible": true,
+      "group": "11",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 12,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0012.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "06833d4a57702ffd3a62daa895e2bfb2a30b32745d9c051fba46a00f53ccdd74",
+      "decoded_sha256": "b8b85e20b04841a411d97ca9f2300c386fa427fad3086dcfcbcb0c1354dfe312",
+      "fov_center": [
+        1495.5,
+        987.78125
+      ],
+      "fov_side": 2003.671875,
+      "fold": 1,
+      "box": [
+        1147.0,
+        1006.0,
+        1355.0,
+        1216.0
+      ],
+      "xy": [
+        1251.106299,
+        1107.901651
+      ],
+      "visible": true,
+      "group": "12",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 13,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0013.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "6501d9deda42e5679c40d8832d705a142eb5653d7557ff6830c53f8e82aba479",
+      "decoded_sha256": "624fa9a08655a0b33d6f72bab7631f94d3294d28cbf61a85d6866507fab0dd16",
+      "fov_center": [
+        1495.5,
+        991.6875
+      ],
+      "fov_side": 1998.3287500000001,
+      "fold": 2,
+      "box": [
+        1314.0,
+        914.0,
+        1507.0,
+        1106.0
+      ],
+      "xy": [
+        1409.655584,
+        1007.583776
+      ],
+      "visible": true,
+      "group": "13",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 14,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0014.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "1041474290c9b7b25c01899b964bbc8b3ed7b611851c727c62545119c40f6356",
+      "decoded_sha256": "c83ccfa3a9dbe4a1faed07985ee2a24a8c3fb1fa86f4c6f9551698a269831505",
+      "fov_center": [
+        1501.34375,
+        983.875
+      ],
+      "fov_side": 2058.519375,
+      "fold": 1,
+      "box": [
+        1607.0,
+        999.0,
+        1818.0,
+        1216.0
+      ],
+      "xy": [
+        1712.123933,
+        1106.160277
+      ],
+      "visible": true,
+      "group": "14",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 15,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0015.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "acc4d4edebfce6adc46a5c7241cdad3971dac7354c5677e0ddc37f9bc1e1766c",
+      "decoded_sha256": "63d252bb47616c37cd9c1418712e980171f2e63902d9e48244dfe483c2b1f2b1",
+      "fov_center": [
+        1513.03125,
+        991.6875
+      ],
+      "fov_side": 2011.71875,
+      "fold": 3,
+      "box": [
+        1355.0,
+        970.0,
+        1557.0,
+        1160.0
+      ],
+      "xy": [
+        1455.038394,
+        1067.40939
+      ],
+      "visible": true,
+      "group": "15",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 16,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0016.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "a274e742990722fd3b6c8f2dee229c4e7e5d3f561c8509f60bbf8fbb0cef039c",
+      "decoded_sha256": "3ec123b694ae7b8b15bd73896701e98cea1565b3cc2c7837183b3e38ba54bb70",
+      "fov_center": [
+        1501.34375,
+        991.6875
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 2,
+      "box": [
+        1418.0,
+        935.0,
+        1614.0,
+        1120.0
+      ],
+      "xy": [
+        1515.144263,
+        1024.174708
+      ],
+      "visible": true,
+      "group": "16",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 17,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0017.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "73c390dadc5e376e5e68d70b97c0f6c453375e38932c3f9aee8708e5447ee539",
+      "decoded_sha256": "3047c271e65a655e405bcc5e6f7d2d37d9bc9a7a61c11c554b3501615e4588f9",
+      "fov_center": [
+        1513.03125,
+        991.6875
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 0,
+      "box": [
+        1193.0,
+        1018.0,
+        1382.0,
+        1195.0
+      ],
+      "xy": [
+        1287.141992,
+        1104.640453
+      ],
+      "visible": true,
+      "group": "17",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 18,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0018.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "38a41f2947c793f29d5cfa2462c01bc93018ef89a0e01253026f0f396fc94d6e",
+      "decoded_sha256": "0496e4759d21e2ed50759d6cd12a61722ba61a2b69589ec50c3e34e1a042bbd0",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 1,
+      "box": [
+        1345.0,
+        947.0,
+        1578.0,
+        1181.0
+      ],
+      "xy": [
+        1465.441422,
+        1062.676698
+      ],
+      "visible": true,
+      "group": "18",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 19,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0019.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "1c28cff3d2df024278fe1e1ce7876750efb713618c2e15dcab1ebbe7afac5376",
+      "decoded_sha256": "33052c6e0e63bffaaf557c0ec4e222e217b02956ef0aff1bcf8d2536c6922d4c",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 0,
+      "box": [
+        1374.0,
+        977.0,
+        1564.0,
+        1168.0
+      ],
+      "xy": [
+        1468.344445,
+        1070.147463
+      ],
+      "visible": true,
+      "group": "19",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 20,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0020.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "a217cca36458f4f2d403dd007b35d559cb4f26156d66af1e58a7e03d7f0dd204",
+      "decoded_sha256": "e4adce18d3810089f99f75b833b46382c4e691ddd589636d9b1d3c22b3743e8e",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 3,
+      "box": [
+        1391.0,
+        947.0,
+        1574.0,
+        1129.0
+      ],
+      "xy": [
+        1481.94428,
+        1036.279165
+      ],
+      "visible": true,
+      "group": "20",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 21,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0021.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "0916c235dc3583deb97c4d90b49bb27234479d1e777b28fa1e648c6ea0515433",
+      "decoded_sha256": "e5cfaea2c415e166465700b67cdb97e98a45b4e047e4e454cc8ef3d40e75a446",
+      "fov_center": [
+        1513.03125,
+        987.78125
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 2,
+      "box": [
+        1399.0,
+        924.0,
+        1582.0,
+        1114.0
+      ],
+      "xy": [
+        1491.518181,
+        1014.913153
+      ],
+      "visible": true,
+      "group": "21",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 22,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0022.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "259ad86ece6afcf27817f393d18ab43ab0b140152a11eaf1c64af58ae0280ef2",
+      "decoded_sha256": "d456e72fe4cd28f12247fece845c392862f90a1961792fc8cb1408f5a42f6a6d",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 0,
+      "box": [
+        1312.0,
+        974.0,
+        1495.0,
+        1158.0
+      ],
+      "xy": [
+        1403.287997,
+        1066.12555
+      ],
+      "visible": true,
+      "group": "22",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 23,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0023.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "6f9bc720213a274f176f2a065aa0822f459164b06fdd785b55f0f25dbc0d35cf",
+      "decoded_sha256": "2660813e91d852be353a0d124ff2023a1d1a2a4d0e40c29311d8dcdd6bc8225c",
+      "fov_center": [
+        1513.03125,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 1,
+      "box": [
+        1330.0,
+        956.0,
+        1539.0,
+        1164.0
+      ],
+      "xy": [
+        1434.204416,
+        1058.548454
+      ],
+      "visible": true,
+      "group": "23",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 24,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0024.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "7dd50ca40d7bc72b073a5dc7e9dc42ce54d463d0010f041110965b5b0d811563",
+      "decoded_sha256": "1ba67903493c694fa86467472391ecaa557217908d1ae17710cfc040cfe86650",
+      "fov_center": [
+        1495.5,
+        991.6875
+      ],
+      "fov_side": 1998.3287500000001,
+      "fold": 1,
+      "box": [
+        1699.0,
+        1072.0,
+        1889.0,
+        1254.0
+      ],
+      "xy": [
+        1794.567435,
+        1159.523035
+      ],
+      "visible": true,
+      "group": "24",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 25,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0025.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "7ccf58309028f93b674e062aa0da365cbae94db763bacfdf63ecaaa94d7478fe",
+      "decoded_sha256": "372b01619c67f87406769a83a45be61f088dbc286475ee6e797a790d4799a7ac",
+      "fov_center": [
+        1513.03125,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 4,
+      "box": [
+        1612.0,
+        1002.0,
+        1793.0,
+        1189.0
+      ],
+      "xy": [
+        1701.603738,
+        1093.547886
+      ],
+      "visible": true,
+      "group": "25",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 26,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0026.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "33b3aa2411f419dac5b00b9c79e83f8d78d68bf3a45bef713746ce5c29ef8fbf",
+      "decoded_sha256": "7abf1d9b42300887b8d737c94f1d425eddd581ce500d8c91a9ce29e7f6fe7454",
+      "fov_center": [
+        1495.5,
+        987.78125
+      ],
+      "fov_side": 2003.671875,
+      "fold": 3,
+      "box": [
+        1372.0,
+        927.0,
+        1574.0,
+        1118.0
+      ],
+      "xy": [
+        1471.953068,
+        1022.991458
+      ],
+      "visible": true,
+      "group": "26",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 27,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0027.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "dc00437a93c4de0f59bcacaec76bb848068eb79236937f02de4459a528e810e2",
+      "decoded_sha256": "af568b138ddf1936baf1c9c507e44db9b8b3d6999013531d198bf8104ae07378",
+      "fov_center": [
+        1495.5,
+        995.59375
+      ],
+      "fov_side": 2022.405,
+      "fold": 0,
+      "box": [
+        1366.0,
+        912.0,
+        1572.0,
+        1120.0
+      ],
+      "xy": [
+        1468.973795,
+        1016.117123
+      ],
+      "visible": true,
+      "group": "27",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 28,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0028.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "ce957442320c9598fa3ef6b240b2ffddd8e42654697d3b007cb8c085ddad6db1",
+      "decoded_sha256": "61555103a6b1795136ce7dbe5f1db65e632b533a9ccd66d052e593bf456c6c26",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 3,
+      "box": [
+        1341.0,
+        985.0,
+        1543.0,
+        1189.0
+      ],
+      "xy": [
+        1442.599375,
+        1085.070792
+      ],
+      "visible": true,
+      "group": "28",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 29,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0029.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "14c18e1bb94329a81e4cfc142be4e76095c1a7f20dcdfdad146e19b3006f4954",
+      "decoded_sha256": "701baa59a456c8e441f6d3249ab5e65bce0480647b0c328ece0bd081892162f6",
+      "fov_center": [
+        1507.1875,
+        995.59375
+      ],
+      "fov_side": 2003.671875,
+      "fold": 3,
+      "box": [
+        1380.0,
+        935.0,
+        1574.0,
+        1135.0
+      ],
+      "xy": [
+        1474.491302,
+        1034.103469
+      ],
+      "visible": true,
+      "group": "29",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 30,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0030.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "863a68de37d7c24797dc773d38ede1fdc30c8c647760c52af0b108bade82b407",
+      "decoded_sha256": "ed19b2e3f9d112425a068018f24d426f163bc85f89aab2f3d81a759462023f26",
+      "fov_center": [
+        1513.03125,
+        991.6875
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 1,
+      "box": [
+        1412.0,
+        904.0,
+        1591.0,
+        1085.0
+      ],
+      "xy": [
+        1501.649413,
+        991.131186
+      ],
+      "visible": true,
+      "group": "30",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 31,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0031.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "f60a90cfb402b7ed14ea18357b20d1dfa586b4ea3b500905e9222f9a84512867",
+      "decoded_sha256": "b2bda3aa740e59770b4831799269b0347277f23c68f39f1ae17d0a1fb971dae0",
+      "fov_center": [
+        1501.34375,
+        991.6875
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 4,
+      "box": [
+        1582.0,
+        989.0,
+        1774.0,
+        1181.0
+      ],
+      "xy": [
+        1680.140768,
+        1080.343087
+      ],
+      "visible": true,
+      "group": "31",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 32,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0032.jpg",
+      "width": 1956,
+      "height": 1934,
+      "sha256": "a5d8d62033ac491afce8567451780965b311ed70e1f5af3fa2ffc6aac07ff128",
+      "decoded_sha256": "86637c168bd36e0612835d9534d22ecd1bc887c309086fad2299a2bf25c0b1c4",
+      "fov_center": [
+        977.5,
+        962.72265625
+      ],
+      "fov_side": 1921.988046875,
+      "fold": 1,
+      "box": [
+        1105.0,
+        965.0,
+        1261.0,
+        1117.0
+      ],
+      "xy": [
+        1183.240793,
+        1040.554149
+      ],
+      "visible": true,
+      "group": "32",
+      "stratum": "1956x1934_1"
+    },
+    {
+      "id": 33,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0033.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "78fe3ad20a936a71806c148e64343942b1b44001093ea220fd51f421bbd9f728",
+      "decoded_sha256": "bf5ab68977376dbc89512daaf95fb734631e33b65f602700c31f228e37730669",
+      "fov_center": [
+        1501.34375,
+        991.6875
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 0,
+      "box": [
+        1368.0,
+        910.0,
+        1578.0,
+        1122.0
+      ],
+      "xy": [
+        1471.861016,
+        1015.146463
+      ],
+      "visible": true,
+      "group": "33",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 34,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0034.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "49330dc8e1459c4024f17e34931700be572db9c6c76ff0eb433d8b84a42cfdc2",
+      "decoded_sha256": "2165546f74ff966278238315038b73d76dab5bd8fe45cc5f152c85282558d9e0",
+      "fov_center": [
+        1518.875,
+        976.0625
+      ],
+      "fov_side": 1998.3287500000001,
+      "fold": 4,
+      "box": [
+        1220.0,
+        1006.0,
+        1420.0,
+        1199.0
+      ],
+      "xy": [
+        1316.975493,
+        1098.508993
+      ],
+      "visible": true,
+      "group": "34",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 35,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0035.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "0f10dfdb79ed91825bf1f213cda295b2dc2719f803b1dd2eb5b4898edab751db",
+      "decoded_sha256": "a2baf90843b4b7e582fd581b742236439fb8da34dec68a271718f4c6d1155860",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 1,
+      "box": [
+        1395.0,
+        935.0,
+        1587.0,
+        1127.0
+      ],
+      "xy": [
+        1491.690415,
+        1030.102044
+      ],
+      "visible": true,
+      "group": "35",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 36,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0036.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "5d5a70a72548001dfdf64955daa8158c76dff44a6bd019ee2bbb7e587b884767",
+      "decoded_sha256": "b5f6e2aa7a25ebef3fe7f5e7859ac25822c40b5f0de9113d1b0be6861d50399f",
+      "fov_center": [
+        1489.65625,
+        983.875
+      ],
+      "fov_side": 2034.443125,
+      "fold": 3,
+      "box": [
+        1389.0,
+        929.0,
+        1582.0,
+        1114.0
+      ],
+      "xy": [
+        1484.936803,
+        1020.351697
+      ],
+      "visible": true,
+      "group": "36",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 37,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0037.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "c8fe98b185526fafe3c7ac2ee8036deb1242942e98843f19332cde54abee9b7c",
+      "decoded_sha256": "062fab3bb227a70b1245ce9317ba96e438c4cd81c9a1486628f4cd85adb4df5a",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 1,
+      "box": [
+        1355.0,
+        964.0,
+        1555.0,
+        1160.0
+      ],
+      "xy": [
+        1453.210146,
+        1059.431368
+      ],
+      "visible": true,
+      "group": "37",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 38,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0038.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "4887f25abb2e176b94b3bf57a86dce4426cbaa6f7bc1a1444c01e6e46bda104e",
+      "decoded_sha256": "3c2ffd02ed5d01ba0e050f6dda5ab1f637f8d30d6e7e9d974cea191c7934f6a1",
+      "fov_center": [
+        1507.1875,
+        995.59375
+      ],
+      "fov_side": 2003.671875,
+      "fold": 3,
+      "box": [
+        1362.0,
+        935.0,
+        1578.0,
+        1149.0
+      ],
+      "xy": [
+        1470.756687,
+        1041.278968
+      ],
+      "visible": true,
+      "group": "38",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 39,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0039.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "6c42c40fa6f99741384b541ad7f4164ea68e09b284bb5ce365a211ab98af12c9",
+      "decoded_sha256": "dff6f28600bde7c1370a6062973dafa57eb6ca781eb55d1b383de687ff0dae72",
+      "fov_center": [
+        1513.03125,
+        987.78125
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 4,
+      "box": [
+        1205.0,
+        839.0,
+        1395.0,
+        1024.0
+      ],
+      "xy": [
+        1299.440632,
+        930.171897
+      ],
+      "visible": true,
+      "group": "77",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 40,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0040.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "5d60a0c52f28f0045df36adde2fd93120047d7b3926a8e00f768684c68b71a45",
+      "decoded_sha256": "56145daedb70bab5eb15db6e99cc991c0e37434ad3ac625065bcc80d7ab80524",
+      "fov_center": [
+        1495.5,
+        987.78125
+      ],
+      "fov_side": 2003.671875,
+      "fold": 3,
+      "box": [
+        1385.0,
+        927.0,
+        1572.0,
+        1116.0
+      ],
+      "xy": [
+        1474.590979,
+        1020.931372
+      ],
+      "visible": true,
+      "group": "40",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 41,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0041.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "612219f2c7afcd6321e6842062adf5bc6c9dcc2566fae9830cb48519dd7bcb4d",
+      "decoded_sha256": "0a420f52374920dbaaec2c3735f0f729b3285aae2af9e1a89e5db1da63e0ea42",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 1,
+      "box": [
+        1562.0,
+        997.0,
+        1757.0,
+        1193.0
+      ],
+      "xy": [
+        1659.020623,
+        1093.617575
+      ],
+      "visible": true,
+      "group": "41",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 42,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0042.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "64b896b2a49558a17319f9ed001264ef2fbd87ba8c5329fda786599c2949a380",
+      "decoded_sha256": "85038758e4e53421c1ac2da33026db81456ae8c99f2ba30fcb94e49184c1f811",
+      "fov_center": [
+        1495.5,
+        991.6875
+      ],
+      "fov_side": 1998.3287500000001,
+      "fold": 4,
+      "box": [
+        1566.0,
+        1004.0,
+        1749.0,
+        1185.0
+      ],
+      "xy": [
+        1655.093901,
+        1092.277811
+      ],
+      "visible": true,
+      "group": "42",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 43,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0043.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "d4e898a8b4536436e3778cf5cbcf3b3b6c8e466d477e34cfcb30b5ce5a7ab20e",
+      "decoded_sha256": "1dea0ed54ae415fa7653131eb1c32bfa9ae40cdb1608a24adb7a6dbaddf570ec",
+      "fov_center": [
+        1501.34375,
+        991.6875
+      ],
+      "fov_side": 2011.71875,
+      "fold": 0,
+      "box": [
+        1587.0,
+        997.0,
+        1789.0,
+        1187.0
+      ],
+      "xy": [
+        1688.941642,
+        1090.552291
+      ],
+      "visible": true,
+      "group": "43",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 44,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0044.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "9e7cfa2b47cb691a918059d2b81dc134eef6fb68502f7081415cc1d60fd2db26",
+      "decoded_sha256": "450ceef664b553391927df8cdec86a499d35ef69bd0ada69947dc8d693961bf4",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 3,
+      "box": [
+        1220.0,
+        1016.0,
+        1422.0,
+        1222.0
+      ],
+      "xy": [
+        1319.862526,
+        1119.797755
+      ],
+      "visible": true,
+      "group": "44",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 45,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0045.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "038a95a98c60edd7c4042de77066fca6f9b3e60c5663d35cbc2c249f6faa15d0",
+      "decoded_sha256": "0c025fd1db80c00a50d463eaf11a392794a29346b9c2b4b0b99dda083c7b5cbc",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 3,
+      "box": [
+        1345.0,
+        952.0,
+        1539.0,
+        1147.0
+      ],
+      "xy": [
+        1439.842243,
+        1047.592411
+      ],
+      "visible": true,
+      "group": "45",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 46,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0046.jpg",
+      "width": 1956,
+      "height": 1934,
+      "sha256": "84b920967d7355e20c1a61eb338b745560a812474e7961bedb4c0e9f25a084bb",
+      "decoded_sha256": "5d77d64106e9bd9d7173c7f9220b0512e2bbb2f4245b56c5f7dc35e9d2cb6872",
+      "fov_center": [
+        977.5,
+        966.5
+      ],
+      "fov_side": 1920.241875,
+      "fold": 0,
+      "box": [
+        1135.0,
+        955.0,
+        1281.0,
+        1095.0
+      ],
+      "xy": [
+        1207.18796,
+        1024.013109
+      ],
+      "visible": true,
+      "group": "46",
+      "stratum": "1956x1934_1"
+    },
+    {
+      "id": 47,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0047.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "81e95f61801c48fc184d42f96a89f21591443c61ca64c7349089e02d3be28d04",
+      "decoded_sha256": "784c78fb1a05dd3d3c2f12dce4059b04876d0d5ab1abdfe381de668fd5f26a81",
+      "fov_center": [
+        1495.5,
+        987.78125
+      ],
+      "fov_side": 2022.405,
+      "fold": 0,
+      "box": [
+        1595.0,
+        1012.0,
+        1778.0,
+        1191.0
+      ],
+      "xy": [
+        1684.101252,
+        1099.636233
+      ],
+      "visible": true,
+      "group": "47",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 48,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0048.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "d31882724c914d6b586174088077e2996892bcf1ae4b2502f8bf85af2b0b73a5",
+      "decoded_sha256": "934364a8e9d03f7b60e39d78ce8309d0f0ee71366043119ed5ab797872f7369b",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 3,
+      "box": [
+        1376.0,
+        933.0,
+        1562.0,
+        1124.0
+      ],
+      "xy": [
+        1467.113124,
+        1027.445081
+      ],
+      "visible": true,
+      "group": "48",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 49,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0049.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "a378da4fd75798e5cc7a5a0c726fb0634a4c606b4807f1ca15e52cabbe8375d6",
+      "decoded_sha256": "625168aaec3ab1d17adeacbe5e3c135b088677f12b8820d93665255bdc0cf594",
+      "fov_center": [
+        1495.5,
+        995.59375
+      ],
+      "fov_side": 2003.671875,
+      "fold": 2,
+      "box": [
+        997.0,
+        1089.0,
+        1187.0,
+        1285.0
+      ],
+      "xy": [
+        1090.916892,
+        1182.160985
+      ],
+      "visible": true,
+      "group": "49",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 50,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0050.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "09de79a01efbc4d9818b4acccc22bce33e45d33c59b3058e601416b558fc988f",
+      "decoded_sha256": "d55f778b02952b8e8a7fc190f09f511fd82955bba0c20e808f6cf8f0871c2ff0",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 4,
+      "box": [
+        1362.0,
+        947.0,
+        1576.0,
+        1156.0
+      ],
+      "xy": [
+        1469.475317,
+        1049.81271
+      ],
+      "visible": true,
+      "group": "50",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 51,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0051.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "4794613a641cb8455cf7f5be2b127acc96722e724295f25d07ef4fcb7cb6cea8",
+      "decoded_sha256": "eff55f5a159d5f9e4718646a1f36fbced374ec046427554f3ab18202d7ccdeb8",
+      "fov_center": [
+        1513.03125,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 1,
+      "box": [
+        1389.0,
+        931.0,
+        1593.0,
+        1135.0
+      ],
+      "xy": [
+        1491.171455,
+        1030.674705
+      ],
+      "visible": true,
+      "group": "51",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 52,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0052.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "4286cbc3602bfc2aa354cfdfd64e7e7a27bbc789f7adf5d69d99f0c56bbdc646",
+      "decoded_sha256": "92be71d192b35f6e314a38929e0c1757fbb2e92b34625202f7d029ea49509029",
+      "fov_center": [
+        1495.5,
+        987.78125
+      ],
+      "fov_side": 2003.671875,
+      "fold": 0,
+      "box": [
+        1139.0,
+        997.0,
+        1332.0,
+        1195.0
+      ],
+      "xy": [
+        1236.565324,
+        1095.313833
+      ],
+      "visible": true,
+      "group": "52",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 53,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0053.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "7eb28570c7610c1a6d5eadb31747ccee0e27308b4526701e008cd9dde9185839",
+      "decoded_sha256": "b17cab1628357f1e8a3765bb005c8c6f589d378d93bbe517bcae49ee7bb67a85",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 4,
+      "box": [
+        1362.0,
+        943.0,
+        1574.0,
+        1152.0
+      ],
+      "xy": [
+        1467.980769,
+        1045.268561
+      ],
+      "visible": true,
+      "group": "53",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 54,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0054.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "afa4cae13b882af2f70f16b416c93848f59f01e0077a44ded1c4ee40f5941464",
+      "decoded_sha256": "869fcbdaca5a7488b9d49e6509412c09ebc54dd2119f6774a7e1f1e15e554d33",
+      "fov_center": [
+        1513.03125,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 0,
+      "box": [
+        1389.0,
+        927.0,
+        1599.0,
+        1133.0
+      ],
+      "xy": [
+        1493.145462,
+        1028.581558
+      ],
+      "visible": true,
+      "group": "54",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 55,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0055.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "b9543414555fb556f0f8d2e69e27f8b11dc704f46c4adc7eb5190f8ef63e040f",
+      "decoded_sha256": "8821940e49b0672c59e9a745375215fa70c36c90f15760fa1125d8e51ca76689",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 2,
+      "box": [
+        1370.0,
+        933.0,
+        1564.0,
+        1127.0
+      ],
+      "xy": [
+        1465.871502,
+        1027.494491
+      ],
+      "visible": true,
+      "group": "55",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 56,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0056.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "e02c8074254828c33e128d8245b32fdf97f9a77988e2b86aa60b959f0e8f5416",
+      "decoded_sha256": "19a94bee8738e0f66b27448f4790875157223278c9cfa791797f8d34251dabf8",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 3,
+      "box": [
+        1366.0,
+        929.0,
+        1562.0,
+        1129.0
+      ],
+      "xy": [
+        1464.108972,
+        1026.162207
+      ],
+      "visible": true,
+      "group": "56",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 57,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0057.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "bf8c9e9d0b538aa8978f858cfd00e59168e9b36d87b55f63ee5ee8454e64b38a",
+      "decoded_sha256": "13cef0cbff6c0933f95382b95da3d82a2664e42ed0f7689bd281880e757110d8",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 2,
+      "box": [
+        1370.0,
+        945.0,
+        1570.0,
+        1149.0
+      ],
+      "xy": [
+        1468.575148,
+        1045.22294
+      ],
+      "visible": true,
+      "group": "57",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 58,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0058.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "0fd579753387ebc55e41de67bbe5579f4d20e22779bbcb4366aa9e869c2d228b",
+      "decoded_sha256": "55d9689fe756677f0c8f2f6541cf4fc566072c9b1464598fcffdbef39de685c1",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 2,
+      "box": [
+        1391.0,
+        910.0,
+        1585.0,
+        1104.0
+      ],
+      "xy": [
+        1487.950901,
+        1005.063243
+      ],
+      "visible": true,
+      "group": "58",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 59,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0059.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "49f44ff60fd94340d6220b5b786111cf8263dd8f5d8679dc63b34a21aa8e4ba6",
+      "decoded_sha256": "1cf4c20fc42d7ee5ad9ece8106aed3dc4689cf2bb49709a54d82aa46a311e05a",
+      "fov_center": [
+        1518.875,
+        987.78125
+      ],
+      "fov_side": 2003.671875,
+      "fold": 3,
+      "box": [
+        1230.0,
+        856.0,
+        1428.0,
+        1054.0
+      ],
+      "xy": [
+        1328.036489,
+        953.572047
+      ],
+      "visible": true,
+      "group": "59",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 60,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0060.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "30f0ad4875e09c95d86db69741d7c66f59b069aa8caf3eca80c36a79a0a2a8a3",
+      "decoded_sha256": "421e745672ebf5d5170a443a27e9d60a847e8d95f00f46915be168065da286e8",
+      "fov_center": [
+        1495.5,
+        991.6875
+      ],
+      "fov_side": 1998.3287500000001,
+      "fold": 2,
+      "box": [
+        1318.0,
+        935.0,
+        1518.0,
+        1129.0
+      ],
+      "xy": [
+        1416.9182,
+        1033.498171
+      ],
+      "visible": true,
+      "group": "60",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 61,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0061.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "cd52f13995081f9c0427f60e1feb66fd60e4fac2967dfbf77e0c1217b82b1227",
+      "decoded_sha256": "33a0c802921997dd597629504f51ae44aa7081f402934cb41d5e842141af6129",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 4,
+      "box": [
+        1580.0,
+        1002.0,
+        1766.0,
+        1193.0
+      ],
+      "xy": [
+        1671.105566,
+        1097.901697
+      ],
+      "visible": true,
+      "group": "61",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 62,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0062.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "c43ba1465a73e03ec707e1d7e7da3a233420f1e3fe0a4b8a30609c45ec7c090c",
+      "decoded_sha256": "51557b8f3ee484715660d8a8664227620a7273c0c29ac7b48813d5e15f5082f3",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 0,
+      "box": [
+        1553.0,
+        974.0,
+        1753.0,
+        1164.0
+      ],
+      "xy": [
+        1653.285062,
+        1068.266989
+      ],
+      "visible": true,
+      "group": "62",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 63,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0063.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "9e42912af9abb043f4667020ffbafcd086b8aea30923bf6105e54fd3225e42dd",
+      "decoded_sha256": "2add0560e21c5acd0bd10c8036b7637d11e9f33af6ea44124033361cc64b8ff4",
+      "fov_center": [
+        1495.5,
+        983.875
+      ],
+      "fov_side": 1998.3287500000001,
+      "fold": 4,
+      "box": [
+        1578.0,
+        991.0,
+        1778.0,
+        1187.0
+      ],
+      "xy": [
+        1678.789934,
+        1083.99267
+      ],
+      "visible": true,
+      "group": "63",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 64,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0064.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "9fef30b953f94cb6caa2ec200df84eb50dec34b8cd4303a8cf27b65802d26b60",
+      "decoded_sha256": "d4bd663e09ce8e6d3d9ce34c9d8ba594d387bf7b928b54a71381529921c5ef6f",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 0,
+      "box": [
+        1378.0,
+        939.0,
+        1595.0,
+        1152.0
+      ],
+      "xy": [
+        1486.364947,
+        1044.719435
+      ],
+      "visible": true,
+      "group": "64",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 65,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0065.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "02ed9bbdab41a3cda6b32f3c24cc9d54722b972caa32eb6a583745cfd78477eb",
+      "decoded_sha256": "6993ad508a7b1570da1ef45043404889bf25ca854098396acbcde0b4f8b4ada2",
+      "fov_center": [
+        1507.1875,
+        995.59375
+      ],
+      "fov_side": 2003.671875,
+      "fold": 4,
+      "box": [
+        1174.0,
+        991.0,
+        1378.0,
+        1202.0
+      ],
+      "xy": [
+        1274.024612,
+        1096.037118
+      ],
+      "visible": true,
+      "group": "65",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 66,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0066.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "1a89d2025acf35de796bd4b631567255a3c974330144390d53199630cf1d7532",
+      "decoded_sha256": "232734f5759cceeaa5d7be5b48a8d07841469e911fd9a7eefde2c4dd7abd7fdf",
+      "fov_center": [
+        1513.03125,
+        987.78125
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 0,
+      "box": [
+        1378.0,
+        941.0,
+        1585.0,
+        1149.0
+      ],
+      "xy": [
+        1479.595542,
+        1046.903374
+      ],
+      "visible": true,
+      "group": "66",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 67,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0067.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "e79891dce8ce6e51726aafa4b41b92d302c3f808a048bf7afad835b8e553b89f",
+      "decoded_sha256": "43a67ece2e64d55a8f0ded2a2603cd4441552b2e7e543b8e0025021790c4eb3a",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 1,
+      "box": [
+        1168.0,
+        1002.0,
+        1353.0,
+        1189.0
+      ],
+      "xy": [
+        1260.759517,
+        1093.256255
+      ],
+      "visible": true,
+      "group": "67",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 68,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0068.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "156c676708f63eb0c7385bad8861f14dc2927d594d0469fddc068fa0af781e6c",
+      "decoded_sha256": "126f815788363fd8755c02f56cb2985f6a585fd24865e0c155a1c3e69e8a9ae6",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 0,
+      "box": [
+        1387.0,
+        954.0,
+        1599.0,
+        1158.0
+      ],
+      "xy": [
+        1492.546314,
+        1053.263194
+      ],
+      "visible": true,
+      "group": "68",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 69,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0069.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "4d56d8b8bff00783f1e3ad8bf3dc7d1732f170707c185465551e22ab0b7ece0e",
+      "decoded_sha256": "7642a216734058c9c9c3861c9b11d3406c58f37b5c0ff45dd6c1b313b6ee1f05",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 3,
+      "box": [
+        1349.0,
+        956.0,
+        1557.0,
+        1156.0
+      ],
+      "xy": [
+        1452.707424,
+        1056.446795
+      ],
+      "visible": true,
+      "group": "69",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 70,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0070.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "7f5ab2e598355ab6fca22a2d8c80d851454efe0a99528737134259eca85ccb85",
+      "decoded_sha256": "738f7c0e886cd272e6431736748468aaa93688f72b542a9ededc2c49e0ffd3b8",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 0,
+      "box": [
+        1174.0,
+        1006.0,
+        1364.0,
+        1195.0
+      ],
+      "xy": [
+        1268.000154,
+        1097.338709
+      ],
+      "visible": true,
+      "group": "70",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 71,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0071.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "ab549b7cf6b8edf1b9dcb2ecde75006e832652bfef6c6a85a34f4c7aa004d3c2",
+      "decoded_sha256": "0e2eca7e9813c1b3df3e4604c32e5816a51c62276e16897e241fd7a09a8d69ac",
+      "fov_center": [
+        1513.03125,
+        968.25
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 1,
+      "box": [
+        1622.0,
+        966.0,
+        1810.0,
+        1152.0
+      ],
+      "xy": [
+        1715.060309,
+        1057.07761
+      ],
+      "visible": true,
+      "group": "71",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 72,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0072.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "35ae75d946ab2677a4927f3e4ef43c3a126d984385f411414fa8d6197c25ae3d",
+      "decoded_sha256": "5d00f2b2dc397b553384dec053f990c3c0981458b412aff9dc4d83a174f394d0",
+      "fov_center": [
+        1501.34375,
+        991.6875
+      ],
+      "fov_side": 2011.71875,
+      "fold": 1,
+      "box": [
+        1314.0,
+        916.0,
+        1518.0,
+        1120.0
+      ],
+      "xy": [
+        1413.68726,
+        1014.338044
+      ],
+      "visible": true,
+      "group": "72",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 73,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0073.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "e4fdd1c247d549ca09efa6166e11395ee1f16129562466a9f2d6ad00b06ceed3",
+      "decoded_sha256": "41fe7be07205c716d9be342b405d96ac38c677f0fe0315badeb3e1bcddf2e3bf",
+      "fov_center": [
+        1495.5,
+        987.78125
+      ],
+      "fov_side": 2003.671875,
+      "fold": 3,
+      "box": [
+        1149.0,
+        987.0,
+        1347.0,
+        1185.0
+      ],
+      "xy": [
+        1248.554138,
+        1084.187285
+      ],
+      "visible": true,
+      "group": "73",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 74,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0074.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "2ff91c03f1377cca6a3fd7ea72662e1744443ff559c36a9fc98868c400ea1a0e",
+      "decoded_sha256": "3a8eef76dbcc136f95f128b09f3c59a6651e6c2ea927d3293a9fc8dc3e5d087c",
+      "fov_center": [
+        1513.03125,
+        979.96875
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 1,
+      "box": [
+        1378.0,
+        910.0,
+        1601.0,
+        1127.0
+      ],
+      "xy": [
+        1487.20534,
+        1016.022353
+      ],
+      "visible": true,
+      "group": "74",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 75,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0075.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "a748f7a31be4e97fff919034f6bd2cbf733cfc54b4deaba982b3e2531bc700a4",
+      "decoded_sha256": "5ff3fcd2e755ecd7b6349c8e56fac438a1b5047d63ad065c51594e7c4f96f2e1",
+      "fov_center": [
+        1495.5,
+        991.6875
+      ],
+      "fov_side": 1998.3287500000001,
+      "fold": 2,
+      "box": [
+        1589.0,
+        968.0,
+        1789.0,
+        1162.0
+      ],
+      "xy": [
+        1688.476642,
+        1063.224837
+      ],
+      "visible": true,
+      "group": "75",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 76,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0076.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "a784288549b5a87d35f3f8da6f6b253d3a5265e121c3dd3a186f6535ee178948",
+      "decoded_sha256": "b017ae9e50a97e036e04170ebae4b626df557c5992bc88b6b3de967ebf46d4d1",
+      "fov_center": [
+        1513.03125,
+        987.78125
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 2,
+      "box": [
+        1407.0,
+        933.0,
+        1582.0,
+        1106.0
+      ],
+      "xy": [
+        1494.938977,
+        1017.492746
+      ],
+      "visible": true,
+      "group": "76",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 77,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0077.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "6c42c40fa6f99741384b541ad7f4164ea68e09b284bb5ce365a211ab98af12c9",
+      "decoded_sha256": "dff6f28600bde7c1370a6062973dafa57eb6ca781eb55d1b383de687ff0dae72",
+      "fov_center": [
+        1513.03125,
+        987.78125
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 4,
+      "box": [
+        1203.0,
+        837.0,
+        1399.0,
+        1037.0
+      ],
+      "xy": [
+        1299.490121,
+        934.244593
+      ],
+      "visible": true,
+      "group": "77",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 78,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0078.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "e1ea405d2f6bf765c5b6023d8a91fea9683f0a1fea091573236708f1310d03bb",
+      "decoded_sha256": "d5fc98d8bb97f1ccbbd1c80093f7570f57497ca61d184481f6213084d3b34cd1",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 2,
+      "box": [
+        1570.0,
+        1006.0,
+        1766.0,
+        1199.0
+      ],
+      "xy": [
+        1665.401957,
+        1101.48267
+      ],
+      "visible": true,
+      "group": "78",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 79,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0079.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "37bb0b067fe5dc3698bc9600967ea642b3eca90dbf1ed982a5c9ca6ac1c7e5db",
+      "decoded_sha256": "26c6ab0905ac1a98e3681084018a25bd9e0f378e9ec9e4dba09ec7eeb74fe85b",
+      "fov_center": [
+        1501.34375,
+        987.78125
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": 4,
+      "box": [
+        1187.0,
+        1037.0,
+        1355.0,
+        1222.0
+      ],
+      "xy": [
+        1270.251821,
+        1134.462757
+      ],
+      "visible": true,
+      "group": "79",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 80,
+      "split": "train",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\train\\0080.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "b77ce7c3dd23defa247028e4ecc6f8851a2cea9c54baac7471bfef96ff72f1e2",
+      "decoded_sha256": "723a9b6ad2f9e39cab57b793fe987ce0499c6be83f4a12f23f4664ac1ab53ef4",
+      "fov_center": [
+        1495.5,
+        991.6875
+      ],
+      "fov_side": 1998.3287500000001,
+      "fold": 2,
+      "box": [
+        1364.0,
+        943.0,
+        1549.0,
+        1118.0
+      ],
+      "xy": [
+        1457.479958,
+        1033.677183
+      ],
+      "visible": true,
+      "group": "80",
+      "stratum": "2992x2000_1"
+    },
+    {
+      "id": 81,
+      "split": "test",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\test\\0081.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "7997e36b27941efc7ea184cf047a0122885c67e7fac3286643ca03ca8bc48a12",
+      "decoded_sha256": "7f5ec2e65b4e72cfeb5b7a2860952ceed3d2a38cd823c4b56620fd91198a2c6e",
+      "fov_center": [
+        1501.34375,
+        979.96875
+      ],
+      "fov_side": 1986.290625,
+      "fold": -1,
+      "box": null
+    },
+    {
+      "id": 82,
+      "split": "test",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\test\\0082.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "05031a9dd081678f3563da5241c556c06c5cd8a2b3a919600cd31f4ec4d1d389",
+      "decoded_sha256": "91d1fde6f270e12ac8364f7d1469ab5bb448dafa89f7792dde8d58cf699a8b48",
+      "fov_center": [
+        1501.34375,
+        991.6875
+      ],
+      "fov_side": 2011.71875,
+      "fold": -1,
+      "box": null
+    },
+    {
+      "id": 83,
+      "split": "test",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\test\\0083.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "bfeef6077aaf3fba39afb8b228ec8f977ce7cda9ef5c69fd823e79e849d7c682",
+      "decoded_sha256": "a2c65bcca47e02f11c8b783f2ecfe3bbad25723339c2abc431a91577c53b41b5",
+      "fov_center": [
+        1501.34375,
+        991.6875
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": -1,
+      "box": null
+    },
+    {
+      "id": 84,
+      "split": "test",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\test\\0084.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "fad734b2200572ed8eb4030794f08e5408bd3da8ed5d27439310ecb511b2370b",
+      "decoded_sha256": "c6b0321ac20b85c4b6da471ea17e4e76a93c38808d4c197475dcc1278777d899",
+      "fov_center": [
+        1489.65625,
+        987.78125
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": -1,
+      "box": null
+    },
+    {
+      "id": 85,
+      "split": "test",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\test\\0085.jpg",
+      "width": 1956,
+      "height": 1934,
+      "sha256": "0e5fe4a0e919d336e289fe6f3de95a95862918d023b719b1a784337d71b252a7",
+      "decoded_sha256": "7ebad490e597967f7db9cf15b965efa6bb308cc4b33b6ffa3ae83de51fa0e5e1",
+      "fov_center": [
+        977.5,
+        970.27734375
+      ],
+      "fov_side": 1921.988046875,
+      "fold": -1,
+      "box": null
+    },
+    {
+      "id": 86,
+      "split": "test",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\test\\0086.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "9797b1a59ad9d28ee1924b5f484b57686df7c6aad84d27578450c24a6cf45489",
+      "decoded_sha256": "76a24b66d5a761c75c63ffdb3abf49cabb6bb0ee3803351ed1380ee547ac5268",
+      "fov_center": [
+        1501.34375,
+        991.6875
+      ],
+      "fov_side": 2011.71875,
+      "fold": -1,
+      "box": null
+    },
+    {
+      "id": 87,
+      "split": "test",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\test\\0087.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "4e0fe9a783c708fa88c73da76c6fd41304b6dc902ce77bf2dee5dd8b6c50dce5",
+      "decoded_sha256": "89f4252c5bf70b2fb829e630715305b6058cf1107b2e031b8bd9c2bf6b86745a",
+      "fov_center": [
+        1495.5,
+        991.6875
+      ],
+      "fov_side": 1998.3287500000001,
+      "fold": -1,
+      "box": null
+    },
+    {
+      "id": 88,
+      "split": "test",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\test\\0088.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "1155b569a7ee4b9864f66813d0fff80e5d62967a6f00d3de7c2060f407b26a77",
+      "decoded_sha256": "34a5e27f729940aabb767ee8ca9d537b1cefcead55377daa9fdcb4a169d5e32a",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": -1,
+      "box": null
+    },
+    {
+      "id": 89,
+      "split": "test",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\test\\0089.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "f4efa83cf50958c12982cf4c5590872ece7bec1cc471d8f42171cd11964ac302",
+      "decoded_sha256": "69b93774ec8703aea0ba4309f0846c23ce35a8d11f42fa05961735bee32d2723",
+      "fov_center": [
+        1495.5,
+        987.78125
+      ],
+      "fov_side": 2003.671875,
+      "fold": -1,
+      "box": null
+    },
+    {
+      "id": 90,
+      "split": "test",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\test\\0090.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "0062f2d71a2ee69afac7cbf5003f41434475a89f9e865201aac0183622c407d9",
+      "decoded_sha256": "b1af41b38cdf47b51ba878629fdc39b19b33db9ba56d20b477812d49e9728260",
+      "fov_center": [
+        1489.65625,
+        972.15625
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": -1,
+      "box": null
+    },
+    {
+      "id": 91,
+      "split": "test",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\test\\0091.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "6f3f0d6c6c1fac238224b90cb149cc0f4b067f9e5fc4740452d8d0bcf99ed3e6",
+      "decoded_sha256": "67fd42a6577a4249836fe9c0cc76601ecd87e1d9cd85599e01b757cd61e0f04c",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": -1,
+      "box": null
+    },
+    {
+      "id": 92,
+      "split": "test",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\test\\0092.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "d9a3f05b09278aa753fb92f9423adaa4a6381261d95406ef4769c91c1d4ea430",
+      "decoded_sha256": "7e75b9a15a41d064775bd9ecb369e0f5c80d2aca668df140329ad24d4b041a2e",
+      "fov_center": [
+        1513.03125,
+        991.6875
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": -1,
+      "box": null
+    },
+    {
+      "id": 93,
+      "split": "test",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\test\\0093.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "2e93a873fd8467303ee0e67d79c8f88bf1e7bde9bf5cec46e92c38e29e347bc0",
+      "decoded_sha256": "470692049608a3e384fd03ae15a5ffce547fd05a95a839a9425e7da7f2fef50e",
+      "fov_center": [
+        1501.34375,
+        991.6875
+      ],
+      "fov_side": 2011.71875,
+      "fold": -1,
+      "box": null
+    },
+    {
+      "id": 94,
+      "split": "test",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\test\\0094.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "4658da560fdc9f9ac4929892772e1f9c5b3f396acd539325574fa5dca92ed145",
+      "decoded_sha256": "b1d2226a5acc72cc7d52671ede555a209cc29e198ecd103ca2b8d7fdba532f13",
+      "fov_center": [
+        1489.65625,
+        991.6875
+      ],
+      "fov_side": 2011.71875,
+      "fold": -1,
+      "box": null
+    },
+    {
+      "id": 95,
+      "split": "test",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\test\\0095.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "4f3f903e1a085941e5a062fbd34bb950745941fb42674f80fb06da46405fbf4e",
+      "decoded_sha256": "fa48037a90ab75718f51faf468a5693122fa3094c7b876c5b06c1446c9ac54e1",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": -1,
+      "box": null
+    },
+    {
+      "id": 96,
+      "split": "test",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\test\\0096.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "a8d0d9dac3adc679747b82664e34b1c06dbb0d80dbffd9936587414666a49277",
+      "decoded_sha256": "3b68ea9fd4b2f6d0a6bbd7f196fcdba4e6c866b6dbbf4f97e5d0d2ff263a445a",
+      "fov_center": [
+        1513.03125,
+        968.25
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": -1,
+      "box": null
+    },
+    {
+      "id": 97,
+      "split": "test",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\test\\0097.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "765fb6957f7810aa55001548c706b6f3878d261050ba8c1d424202df3a9b94eb",
+      "decoded_sha256": "0c348425a7f2142016d8b89cdb4336effd6c7d42708c532933a4bd8bfa3ea014",
+      "fov_center": [
+        1495.5,
+        991.6875
+      ],
+      "fov_side": 1998.3287500000001,
+      "fold": -1,
+      "box": null
+    },
+    {
+      "id": 98,
+      "split": "test",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\test\\0098.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "33b13fe2cf2b1939802390746552eaf822d9ff92df6b791c0f33e80c3b47695e",
+      "decoded_sha256": "3a5154360540ddbd2f3d38576a9284bbdf5e839a5128d0baad38c1636ff98d9a",
+      "fov_center": [
+        1501.34375,
+        995.59375
+      ],
+      "fov_side": 2010.3668750000002,
+      "fold": -1,
+      "box": null
+    },
+    {
+      "id": 99,
+      "split": "test",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\test\\0099.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "c5a5149747234ad5d8d0bc5b5f504ae90d4ff7f4f40a2eaa44ce855b5bb8a521",
+      "decoded_sha256": "380de991404a0e154466eeacb9e280c58dfc8fd5d9fc809de1c52765101b88d8",
+      "fov_center": [
+        1501.34375,
+        991.6875
+      ],
+      "fov_side": 2011.71875,
+      "fold": -1,
+      "box": null
+    },
+    {
+      "id": 100,
+      "split": "test",
+      "path": "C:\\Users\\Lenovo\\Desktop\\2026task3\\detection\\test\\0100.jpg",
+      "width": 2992,
+      "height": 2000,
+      "sha256": "340a9d55b5e9b4ef4f184ddec2e9018cbedd12bf0ba2c77d781aef47f6bd0789",
+      "decoded_sha256": "dfeea00137cb825cbbde43589be42614330f67bb2f47aa60a9f58018d2e0f61f",
+      "fov_center": [
+        1507.1875,
+        991.6875
+      ],
+      "fov_side": 1998.3287500000001,
+      "fold": -1,
+      "box": null
+    }
+  ]
+}
